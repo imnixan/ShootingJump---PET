@@ -11,5 +11,6 @@ public abstract class Bullet : MonoBehaviour
         Rigidbody rb = GetComponent<Rigidbody>();
         transform.up = direction;
         rb.velocity = transform.up * bulletSpeed;
+        rb.angularVelocity = new Vector3(0, bulletSpeed, 0);
     }
 }

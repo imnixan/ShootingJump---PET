@@ -5,9 +5,7 @@ using UnityEngine;
 public class GameSpeedChanger : MonoBehaviour
 {
     private const float MaxGameSpeed = 1;
-    private const float MinGameSpeed = 0.05f;
-    private const float RestoreSpeed = 0.002f;
-    private const float DecreaseScale = 2;
+    private const float SlowMoSpeed = 0.1f;
     public float _currentGameSpeed;
     private float CurrentGameSpeed
     {
@@ -15,10 +13,6 @@ public class GameSpeedChanger : MonoBehaviour
         set
         {
             _currentGameSpeed = value;
-            if (_currentGameSpeed < MinGameSpeed)
-            {
-                _currentGameSpeed = MinGameSpeed;
-            }
             if (_currentGameSpeed > MaxGameSpeed)
             {
                 _currentGameSpeed = MaxGameSpeed;
@@ -35,11 +29,11 @@ public class GameSpeedChanger : MonoBehaviour
 
     public void SlowTime()
     {
-        CurrentGameSpeed -= CurrentGameSpeed / DecreaseScale;
+        CurrentGameSpeed = SlowMoSpeed;
     }
 
-    private void LateUpdate()
+    private void FixedUpdate()
     {
-        CurrentGameSpeed += RestoreSpeed;
+        CurrentGameSpeed += Time.fixedDeltaTime;
     }
 }
