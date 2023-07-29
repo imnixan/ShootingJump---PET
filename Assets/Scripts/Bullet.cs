@@ -2,15 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Bullet : MonoBehaviour
+public class Bullet : Ammo
 {
-    protected float bulletSpeed;
-
-    public virtual void Init(Vector2 direction)
+    public override void SetupAmmo(AmmoSettings ammoSettings)
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
+        base.SetupAmmo(ammoSettings);
+        ammoSpeed = ammoSettings.AmmoSpeed;
+    }
+
+    public override void Init(Vector3 startPos, Vector3 direction)
+    {
+        base.Init(startPos, direction);
         transform.up = direction;
-        rb.velocity = transform.up * bulletSpeed;
-        rb.angularVelocity = new Vector3(0, bulletSpeed, 0);
+        rb.velocity = transform.up * ammoSpeed;
+        rb.angularVelocity = new Vector3(0, ammoSpeed, 0);
     }
 }

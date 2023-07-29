@@ -7,6 +7,9 @@ TagManager:
   - SpeedChanger
   - Bullet
   - Enemy
+  - bullet
+  - PoolManager
+  - Gun
   layers:
   - Default
   - TransparentFX

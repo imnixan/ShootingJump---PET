@@ -6,8 +6,9 @@ public class Pistol : Gun
 {
     protected override void Start()
     {
-        GunPower = 10f;
-        stepDuration = 0.1f;
+        bouncePower = 10f;
+        animStepDuration = 0.025f;
+        magazineValue = 30;
         base.Start();
     }
 
@@ -16,11 +17,11 @@ public class Pistol : Gun
         base.CreateFireAnim();
         fireAnim
             .PrependCallback(OnRechargeStart)
-            .Append(slide.DOLocalMoveZ(slideShootEnd, stepDuration))
-            .Join(trigger.DOLocalMoveZ(triggerShootEnd, stepDuration))
+            .Append(slide.DOLocalMoveZ(slideShootEnd, animStepDuration))
+            .Join(trigger.DOLocalMoveZ(triggerShootEnd, animStepDuration))
             .AppendCallback(DropSleeve)
-            .Append(slide.DOLocalMoveZ(slideShootStart, stepDuration))
-            .Join(trigger.DOLocalMoveZ(triggerShootStart, stepDuration))
+            .Append(slide.DOLocalMoveZ(slideShootStart, animStepDuration))
+            .Join(trigger.DOLocalMoveZ(triggerShootStart, animStepDuration))
             .AppendCallback(OnRechargeEnd);
     }
 }

@@ -6,10 +6,10 @@ using DG.Tweening;
 public abstract class Gun : MonoBehaviour
 {
     [SerializeField]
-    protected Bullet bulletPrefab;
+    protected AmmoSettings bulletSettings;
 
     [SerializeField]
-    protected Sleeve sleevePrefab;
+    protected AmmoSettings sleeveSettings;
 
     [SerializeField]
     protected Transform muzzle,
@@ -26,15 +26,17 @@ public abstract class Gun : MonoBehaviour
         triggerShootEnd;
 
     protected bool _falling;
-
+    protected AmmoPoolManager ammoPool;
     protected Rigidbody rb;
     protected GameSpeedChanger gameSpeedChanger;
-    protected float GunPower;
+    protected float bouncePower;
+    protected float recoilForce;
     protected RaycastHit raycastHit;
     public bool canShoot;
-    protected float stepDuration;
+    protected float animStepDuration;
     protected Sequence fireAnim;
     protected ParticleSystem flash;
+    protected int magazineValue;
 
     protected bool Falling
     {
@@ -51,7 +53,10 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void Start()
     {
+        recoilForce = bouncePower / 4;
         gameSpeedChanger = FindAnyObjectByType<GameSpeedChanger>();
+        ammoPool = FindAnyObjectByType<AmmoPoolManager>();
+        ammoPool.Init(bulletSettings, sleeveSettings, magazineValue);
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
         canShoot = true;
@@ -71,12 +76,12 @@ public abstract class Gun : MonoBehaviour
     {
         if (canShoot)
         {
-            //Falling = true;
+            Falling = true;
             fireAnim.Restart();
             flash.Play();
-            Instantiate(bulletPrefab, muzzle.position, new Quaternion()).Init(transform.right);
+            ammoPool.GetBullet().Init(muzzle.position, transform.right);
             CheckTarget();
-            //Recoil();
+            Recoil();
         }
     }
 
@@ -93,8 +98,9 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void Recoil()
     {
-        rb.velocity = transform.right * -GunPower;
-        rb.angularVelocity = new Vector3(0, 0, GunPower / 3);
+        rb.velocity = transform.right * -bouncePower;
+
+        rb.angularVelocity = new Vector3(0, 0, bouncePower / 3);
     }
 
     protected void OnRechargeEnd()
@@ -114,6 +120,6 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void DropSleeve()
     {
-        Instantiate(sleevePrefab, outlet.position, new Quaternion()).Init(transform.eulerAngles);
+        ammoPool.GetSleeve().Init(outlet.position, transform.eulerAngles);
     }
 }

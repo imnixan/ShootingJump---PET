@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Sleeve : MonoBehaviour
+public class Sleeve : Ammo
 {
-    public void Init(Vector3 rotation)
+    public override void Init(Vector3 startPos, Vector3 rotation)
     {
+        base.Init(startPos, rotation);
         transform.eulerAngles = rotation;
     }
 }
