@@ -1,15 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using DG.Tweening;
 
 public class GameSpeedChanger : MonoBehaviour
 {
+    public static event UnityAction SlowMotion;
+
+    public static float RestoreTime
+    {
+        get { return 1.5f; }
+    }
+
     private const float MaxGameSpeed = 1;
     private const float SlowMoSpeed = 0.1f;
-    private const float RestoreTime = 1.5f;
     private Sequence gameSpeedRestore;
     public float _currentGameSpeed;
+
     private float CurrentGameSpeed
     {
         get { return _currentGameSpeed; }
@@ -21,6 +29,7 @@ public class GameSpeedChanger : MonoBehaviour
                 _currentGameSpeed = MaxGameSpeed;
             }
             Time.timeScale = _currentGameSpeed;
+            AudioManager.Pitch = _currentGameSpeed;
         }
     }
 
@@ -41,5 +50,6 @@ public class GameSpeedChanger : MonoBehaviour
     {
         CurrentGameSpeed = SlowMoSpeed;
         gameSpeedRestore.Restart();
+        SlowMotion?.Invoke();
     }
 }

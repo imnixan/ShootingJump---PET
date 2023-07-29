@@ -25,7 +25,7 @@ public class AmmoPoolManager : MonoBehaviour
 
     public Bullet GetBullet()
     {
-        if (bulletsPool.Count > 0 && bulletsPool.Count < MinAmmo)
+        if (bulletsPool.Count > MinAmmo)
         {
             newAmmo = bulletsPool[0];
             bulletsPool.RemoveAt(0);

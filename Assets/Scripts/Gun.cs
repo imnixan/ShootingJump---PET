@@ -9,6 +9,9 @@ public abstract class Gun : MonoBehaviour
     protected AmmoSettings bulletSettings;
 
     [SerializeField]
+    protected AudioClip[] shootSounds;
+
+    [SerializeField]
     protected AmmoSettings sleeveSettings;
 
     [SerializeField]
@@ -35,8 +38,10 @@ public abstract class Gun : MonoBehaviour
     public bool canShoot;
     protected float animStepDuration;
     protected Sequence fireAnim;
+    protected Sequence endAmmoAnim;
     protected ParticleSystem flash;
     protected int magazineValue;
+    protected int ammoLeft;
 
     protected bool Falling
     {
@@ -53,6 +58,8 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void Start()
     {
+        ammoLeft = magazineValue;
+        UpdateAmmo();
         recoilForce = bouncePower / 4;
         gameSpeedChanger = FindAnyObjectByType<GameSpeedChanger>();
         ammoPool = FindAnyObjectByType<AmmoPoolManager>();
@@ -62,6 +69,7 @@ public abstract class Gun : MonoBehaviour
         canShoot = true;
         flash = GetComponentInChildren<ParticleSystem>();
         CreateFireAnim();
+        CreateNoAmmoAnim();
     }
 
     protected virtual void Update()
@@ -76,31 +84,51 @@ public abstract class Gun : MonoBehaviour
     {
         if (canShoot)
         {
-            Falling = true;
-            fireAnim.Restart();
-            flash.Play();
-            ammoPool.GetBullet().Init(muzzle.position, transform.right);
-            CheckTarget();
-            Recoil();
+            if (ammoLeft > 0)
+            {
+                Falling = true;
+                fireAnim.Restart();
+                flash.Play();
+                AudioManager.PlaySound(shootSounds[Random.Range(0, shootSounds.Length)]);
+                ammoPool.GetBullet().Init(muzzle.position, transform.right);
+                //if (!CheckTarget())
+                //{
+                //    ammoLeft--;
+                //    UpdateAmmo();
+                //}
+                gameSpeedChanger.SlowTime();
+                Recoil();
+            }
+            else
+            {
+                OnAmmoLeft();
+            }
         }
     }
 
-    protected void CheckTarget()
+    protected void UpdateAmmo()
+    {
+        AmmoCounter.UpdateAmmoCounter(ammoLeft, magazineValue);
+    }
+
+    protected bool CheckTarget()
     {
         if (Physics.Raycast(muzzle.transform.position, transform.right, out raycastHit))
         {
             if (raycastHit.collider.CompareTag("Enemy"))
             {
                 gameSpeedChanger.SlowTime();
+                return true;
             }
         }
+        return false;
     }
 
     protected virtual void Recoil()
     {
         rb.velocity = transform.right * -bouncePower;
 
-        rb.angularVelocity = new Vector3(0, 0, bouncePower / 3);
+        rb.angularVelocity = new Vector3(0, 0, recoilForce);
     }
 
     protected void OnRechargeEnd()
@@ -118,8 +146,20 @@ public abstract class Gun : MonoBehaviour
         fireAnim = DOTween.Sequence();
     }
 
+    protected virtual void CreateNoAmmoAnim()
+    {
+        endAmmoAnim = DOTween.Sequence();
+    }
+
     protected virtual void DropSleeve()
     {
         ammoPool.GetSleeve().Init(outlet.position, transform.eulerAngles);
+    }
+
+    protected void OnAmmoLeft()
+    {
+        Debug.Log("GameOver");
+        endAmmoAnim.Restart();
+        Destroy(GetComponent<FixedJoint>());
     }
 }

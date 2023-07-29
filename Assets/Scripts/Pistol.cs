@@ -6,7 +6,7 @@ public class Pistol : Gun
 {
     protected override void Start()
     {
-        bouncePower = 10f;
+        bouncePower = 15f;
         animStepDuration = 0.025f;
         magazineValue = 30;
         base.Start();
@@ -23,5 +23,11 @@ public class Pistol : Gun
             .Append(slide.DOLocalMoveZ(slideShootStart, animStepDuration))
             .Join(trigger.DOLocalMoveZ(triggerShootStart, animStepDuration))
             .AppendCallback(OnRechargeEnd);
+    }
+
+    protected override void CreateNoAmmoAnim()
+    {
+        base.CreateNoAmmoAnim();
+        endAmmoAnim.Append(slide.DOLocalMoveZ(slideShootEnd, animStepDuration));
     }
 }

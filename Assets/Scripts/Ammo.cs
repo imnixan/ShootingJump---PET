@@ -5,6 +5,7 @@ public abstract class Ammo : MonoBehaviour
 {
     public enum AmmoType
     {
+        Null,
         PistolBullet,
         PistolSleeve
     }

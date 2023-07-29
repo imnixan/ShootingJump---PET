@@ -7,7 +7,7 @@ public class Restarter : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("JumpShooter");
         }
