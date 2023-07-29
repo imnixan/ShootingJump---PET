@@ -14,7 +14,7 @@ public class GameSpeedChanger : MonoBehaviour
     }
 
     private const float MaxGameSpeed = 1;
-    private const float SlowMoSpeed = 0.1f;
+    private const float SlowMoSpeed = 0.05f;
     private Sequence gameSpeedRestore;
     public float _currentGameSpeed;
 
