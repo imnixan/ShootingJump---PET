@@ -72,8 +72,8 @@ public class CameraMove : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CurrentFov = Mathf.MoveTowards(CurrentFov, NormalFov, 1f);
-        camera.fieldOfView = Mathf.MoveTowards(camera.fieldOfView, CurrentFov, 1f);
+        CurrentFov = Mathf.MoveTowards(CurrentFov, NormalFov, 0.25f);
+        camera.fieldOfView = Mathf.MoveTowards(camera.fieldOfView, CurrentFov, 0.25f);
     }
 
     private void OnSlowMo()

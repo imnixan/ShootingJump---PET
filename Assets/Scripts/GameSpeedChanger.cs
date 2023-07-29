@@ -36,6 +36,7 @@ public class GameSpeedChanger : MonoBehaviour
     private void Start()
     {
         Application.targetFrameRate = 120;
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
         CurrentGameSpeed = MaxGameSpeed;
         Tween speedRestore = DOTween.To(
             () => CurrentGameSpeed,
