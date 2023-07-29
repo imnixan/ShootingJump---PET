@@ -91,12 +91,11 @@ public abstract class Gun : MonoBehaviour
                 flash.Play();
                 AudioManager.PlaySound(shootSounds[Random.Range(0, shootSounds.Length)]);
                 ammoPool.GetBullet().Init(muzzle.position, transform.right);
-                //if (!CheckTarget())
-                //{
-                //    ammoLeft--;
-                //    UpdateAmmo();
-                //}
-                gameSpeedChanger.SlowTime();
+                if (!CheckTarget())
+                {
+                    ammoLeft--;
+                    UpdateAmmo();
+                }
                 Recoil();
             }
             else

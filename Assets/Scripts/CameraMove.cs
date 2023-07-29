@@ -16,7 +16,26 @@ public class CameraMove : MonoBehaviour
     private const float Speed = 1;
     private float zPos;
     private Vector3 _cameraFinalPos;
-    private Sequence fishEyeAnim;
+
+    public float _currentFov;
+
+    private float CurrentFov
+    {
+        get { return _currentFov; }
+        set
+        {
+            _currentFov = value;
+            if (_currentFov < NormalFov)
+            {
+                _currentFov = NormalFov;
+            }
+            if (_currentFov > SlowMoFov)
+            {
+                _currentFov = SlowMoFov;
+            }
+        }
+    }
+
     private Vector3 CameraFinalPos
     {
         get { return _cameraFinalPos; }
@@ -36,15 +55,8 @@ public class CameraMove : MonoBehaviour
         cameraTransform = transform;
         zPos = cameraTransform.position.z;
         camera = GetComponent<Camera>();
-        CreateFishEyeAnim();
-    }
-
-    private void CreateFishEyeAnim()
-    {
-        fishEyeAnim = DOTween.Sequence();
-
-        fishEyeAnim.Append(camera.DOFieldOfView(SlowMoFov, GameSpeedChanger.RestoreTime / 2));
-        fishEyeAnim.Append(camera.DOFieldOfView(NormalFov, GameSpeedChanger.RestoreTime / 2));
+        CurrentFov = NormalFov;
+        camera.fieldOfView = CurrentFov;
     }
 
     private void LateUpdate()
@@ -58,9 +70,15 @@ public class CameraMove : MonoBehaviour
         );
     }
 
+    private void FixedUpdate()
+    {
+        CurrentFov = Mathf.MoveTowards(CurrentFov, NormalFov, 0.4f);
+        camera.fieldOfView = Mathf.MoveTowards(camera.fieldOfView, CurrentFov, 0.4f);
+    }
+
     private void OnSlowMo()
     {
-        fishEyeAnim.Restart();
+        CurrentFov += 20;
     }
 
     private void OnEnable()
@@ -68,7 +86,7 @@ public class CameraMove : MonoBehaviour
         GameSpeedChanger.SlowMotion += OnSlowMo;
     }
 
-    private void Disable()
+    private void OnDisable()
     {
         GameSpeedChanger.SlowMotion -= OnSlowMo;
     }
