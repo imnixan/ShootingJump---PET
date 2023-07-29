@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class GameSpeedChanger : MonoBehaviour
 {
     private const float MaxGameSpeed = 1;
     private const float SlowMoSpeed = 0.1f;
+    private const float RestoreTime = 1.5f;
+    private Sequence gameSpeedRestore;
     public float _currentGameSpeed;
     private float CurrentGameSpeed
     {
@@ -25,15 +28,18 @@ public class GameSpeedChanger : MonoBehaviour
     {
         Application.targetFrameRate = 120;
         CurrentGameSpeed = MaxGameSpeed;
+        Tween speedRestore = DOTween.To(
+            () => CurrentGameSpeed,
+            x => CurrentGameSpeed = x,
+            1,
+            RestoreTime
+        );
+        gameSpeedRestore = DOTween.Sequence().Append(speedRestore);
     }
 
     public void SlowTime()
     {
         CurrentGameSpeed = SlowMoSpeed;
-    }
-
-    private void FixedUpdate()
-    {
-        CurrentGameSpeed += Time.fixedDeltaTime;
+        gameSpeedRestore.Restart();
     }
 }
