@@ -10,6 +10,7 @@ TagManager:
   - bullet
   - PoolManager
   - Gun
+  - ScoreBonus
   layers:
   - Default
   - TransparentFX

@@ -19,4 +19,9 @@ public class AudioManager : MonoBehaviour
     {
         sound.PlayOneShot(clip);
     }
+
+    public static void Vibrate()
+    {
+        Handheld.Vibrate();
+    }
 }
