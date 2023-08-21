@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a54f17368f15e4797f0c95a3a76ef7, type: 3}
   m_Name: PistolSleeve
   m_EditorClassIdentifier: 
-  _ammoMesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  _ammoMesh: {fileID: -2862770905735805310, guid: eb6fb30532e4f0a4b8a2278f7dae041d, type: 3}
   _ammoSpeed: 30
   _ammoMaterial: {fileID: 2100000, guid: 653458214e60ccd4a8a66cf3353f0fdf, type: 2}
   _ammoTrail: {fileID: 11400000, guid: d441b1fccb0218447b76009bf99fb1d9, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a54f17368f15e4797f0c95a3a76ef7, type: 3}
   m_Name: PistolBullet
   m_EditorClassIdentifier: 
-  _ammoMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  _ammoMesh: {fileID: 3477551807173390131, guid: eb6fb30532e4f0a4b8a2278f7dae041d, type: 3}
   _ammoSpeed: 30
   _ammoMaterial: {fileID: 2100000, guid: 8b063dc30cd912f45ac863b0a85a2371, type: 2}
   _ammoTrail: {fileID: 11400000, guid: 5b3253087098b98458c92c0701d164d7, type: 2}

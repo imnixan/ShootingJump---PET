@@ -18,5 +18,9 @@ public class Enemy : MonoBehaviour
         {
             ragdollSystem.TurnOnRb();
         }
+        else
+        {
+            Debug.Log($"{other.gameObject.tag} - {other.gameObject.name} HIT ME");
+        }
     }
 }

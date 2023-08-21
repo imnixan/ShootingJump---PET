@@ -41,10 +41,10 @@ public abstract class Ammo : MonoBehaviour
     protected virtual void BaseInit()
     {
         ammoPool = GetComponentInParent<AmmoPoolManager>();
-        rb = GetComponent<Rigidbody>();
-        meshFilter = GetComponent<MeshFilter>();
-        mr = GetComponent<MeshRenderer>();
-        ammoTrailRenderer = GetComponent<TrailRenderer>();
+        rb = GetComponentInChildren<Rigidbody>();
+        meshFilter = GetComponentInChildren<MeshFilter>();
+        mr = GetComponentInChildren<MeshRenderer>();
+        ammoTrailRenderer = GetComponentInChildren<TrailRenderer>();
     }
 
     public virtual void Init(Vector3 startPos, Vector3 direction_or_rotation)
