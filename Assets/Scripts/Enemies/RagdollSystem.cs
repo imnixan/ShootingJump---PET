@@ -4,36 +4,30 @@ using UnityEngine;
 
 public class RagdollSystem : MonoBehaviour
 {
-    private Rigidbody[] rbs;
+    public BodyPart[] bodyParts;
     private bool ragdollEnabled;
+    private Enemy enemy;
 
-    public void Init()
+    public void Init(Enemy enemy)
     {
-        rbs = transform.GetComponentsInChildren<Rigidbody>();
-        TurnOffRb();
+        this.enemy = enemy;
+        bodyParts = GetComponentsInChildren<BodyPart>();
+        InitBodyParts();
     }
 
-    public void TurnOnRb()
+    private void InitBodyParts()
     {
-        if (!ragdollEnabled)
+        foreach (var bodyPart in bodyParts)
         {
-            foreach (var rb in rbs)
-            {
-                rb.isKinematic = false;
-                rb.interpolation = RigidbodyInterpolation.Interpolate;
-                rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
-                rb.tag = "Enemy";
-            }
-            ragdollEnabled = true;
+            bodyPart.Init(enemy);
         }
     }
 
-    private void TurnOffRb()
+    public void SetRb(bool turnedOn)
     {
-        foreach (var rb in rbs)
+        foreach (var bodyPart in bodyParts)
         {
-            rb.isKinematic = true;
+            bodyPart.SetPhysic(turnedOn);
         }
-        ragdollEnabled = false;
     }
 }
