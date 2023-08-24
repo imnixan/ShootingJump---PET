@@ -17,5 +17,5 @@ MonoBehaviour:
   _ammoMaterial: {fileID: 2100000, guid: 653458214e60ccd4a8a66cf3353f0fdf, type: 2}
   _ammoTrail: {fileID: 11400000, guid: d441b1fccb0218447b76009bf99fb1d9, type: 2}
   _ammoType: 1
-  _ammoMass: 10
+  _ammoMass: 0.01
   _ammoScale: {x: 0.1, y: 0.1, z: 0.1}

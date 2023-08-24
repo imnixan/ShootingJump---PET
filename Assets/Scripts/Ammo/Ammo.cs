@@ -18,7 +18,7 @@ public abstract class Ammo : MonoBehaviour
     protected TrailRenderer ammoTrailRenderer;
     protected Collider collider;
 
-    private AmmoPoolManager ammoPool;
+    protected AmmoPoolManager ammoPool;
     public AmmoType Type
     {
         protected set { _currenType = value; }
@@ -42,6 +42,7 @@ public abstract class Ammo : MonoBehaviour
     {
         ammoPool = GetComponentInParent<AmmoPoolManager>();
         rb = GetComponentInChildren<Rigidbody>();
+        rb.interpolation = RigidbodyInterpolation.Extrapolate;
         meshFilter = GetComponentInChildren<MeshFilter>();
         mr = GetComponentInChildren<MeshRenderer>();
         ammoTrailRenderer = GetComponentInChildren<TrailRenderer>();
@@ -50,14 +51,18 @@ public abstract class Ammo : MonoBehaviour
     public virtual void Init(Vector3 startPos, Vector3 direction_or_rotation)
     {
         transform.position = startPos;
+        ammoTrailRenderer.enabled = true;
         ammoTrailRenderer.Clear();
+        mr.enabled = true;
     }
 
     protected virtual void OnCollisionEnter(Collision collision)
     {
-        if (!collision.gameObject.CompareTag("Gun"))
+        if (!collision.gameObject.CompareTag("Gun") && !collision.gameObject.CompareTag("Enemy"))
         {
             ammoPool.ReturnnPool(this);
+            ammoTrailRenderer.enabled = false;
+            AudioManager.PlaySleeveSound(transform.position);
         }
     }
 

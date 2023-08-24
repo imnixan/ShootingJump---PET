@@ -23,11 +23,19 @@ public class RagdollSystem : MonoBehaviour
         }
     }
 
-    public void SetRb(bool turnedOn)
+    public void UnlockBody()
     {
         foreach (var bodyPart in bodyParts)
         {
-            bodyPart.SetPhysic(turnedOn);
+            bodyPart.UnLockAxis();
+        }
+    }
+
+    public void SetBodyGravity(bool turnedOn)
+    {
+        foreach (var bodyPart in bodyParts)
+        {
+            bodyPart.SetGravity(turnedOn);
         }
     }
 }

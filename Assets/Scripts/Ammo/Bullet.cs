@@ -17,4 +17,15 @@ public class Bullet : Ammo
         rb.velocity = transform.up * ammoSpeed;
         rb.angularVelocity = new Vector3(0, ammoSpeed, 0);
     }
+
+    protected override void OnCollisionEnter(Collision collision)
+    {
+        base.OnCollisionEnter(collision);
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            ammoPool.ReturnnPool(this);
+            mr.enabled = false;
+            ammoTrailRenderer.enabled = false;
+        }
+    }
 }

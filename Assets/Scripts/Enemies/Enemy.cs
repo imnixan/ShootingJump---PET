@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float HP;
 
+    public ParticleSystem Blood;
+
     private RagdollSystem ragdollSystem;
 
     private Dictionary<BodyPartType, float> DamageDic = new Dictionary<BodyPartType, float>
@@ -37,12 +39,13 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(BodyPartType bodyPart)
     {
+        ragdollSystem.SetBodyGravity(true);
         HP -= DamageDic[bodyPart];
         DamageTaken?.Invoke(DamageDic[bodyPart]);
         if (HP <= 0)
         {
             EnemyKilled?.Invoke();
-            ragdollSystem.SetRb(true);
+            ragdollSystem.UnlockBody();
         }
     }
 }

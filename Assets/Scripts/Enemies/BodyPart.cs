@@ -13,7 +13,7 @@ public class BodyPart : MonoBehaviour
     {
         this.enemy = enemy;
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = true;
+        rb.useGravity = false;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.tag = "Enemy";
@@ -25,11 +25,17 @@ public class BodyPart : MonoBehaviour
         {
             enemy.TakeDamage(bodyPartType);
             Destroy(collision.gameObject);
+            Instantiate(enemy.Blood, collision.GetContact(0).point, new Quaternion());
         }
     }
 
-    public void SetPhysic(bool physic)
+    public void SetGravity(bool physic)
     {
-        rb.isKinematic = !physic;
+        rb.useGravity = physic;
+    }
+
+    public void UnLockAxis()
+    {
+        rb.constraints = RigidbodyConstraints.None;
     }
 }

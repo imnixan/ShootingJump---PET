@@ -9,9 +9,6 @@ public abstract class Gun : MonoBehaviour
     protected AmmoSettings bulletSettings;
 
     [SerializeField]
-    protected AudioClip[] shootSounds;
-
-    [SerializeField]
     protected AmmoSettings sleeveSettings;
 
     [SerializeField]
@@ -184,8 +181,7 @@ public abstract class Gun : MonoBehaviour
     {
         fireAnim.Restart();
         flash.Play();
-        AudioManager.Vibrate();
-        AudioManager.PlaySound(shootSounds[Random.Range(0, shootSounds.Length)]);
+        AudioManager.PlayShootSound();
         CreateBullet();
         if (!CheckTarget())
         {
