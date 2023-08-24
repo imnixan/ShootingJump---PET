@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RagdollSystem : MonoBehaviour
 {
-    public BodyPart[] bodyParts;
+    private BodyPart[] bodyParts;
     private bool ragdollEnabled;
     private Enemy enemy;
 
@@ -23,19 +23,26 @@ public class RagdollSystem : MonoBehaviour
         }
     }
 
-    public void UnlockBody()
+    public void SaveAnimPos()
     {
-        foreach (var bodyPart in bodyParts)
+        foreach (var body in bodyParts)
         {
-            bodyPart.UnLockAxis();
+            body.SavePos();
         }
     }
 
-    public void SetBodyGravity(bool turnedOn)
+    public void RestoreAnimPos(float secs)
     {
-        foreach (var bodyPart in bodyParts)
+        StartCoroutine(RestoreAnimCoroutine(secs));
+    }
+
+    private IEnumerator RestoreAnimCoroutine(float secs)
+    {
+        foreach (var body in bodyParts)
         {
-            bodyPart.SetGravity(turnedOn);
+            body.RestorePos(secs);
         }
+        yield return new WaitForSeconds(secs);
+        enemy.TurnOnAnim();
     }
 }

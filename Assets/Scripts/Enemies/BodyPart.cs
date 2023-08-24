@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using DG.Tweening;
 
 public class BodyPart : MonoBehaviour
 {
@@ -8,12 +9,13 @@ public class BodyPart : MonoBehaviour
 
     private Enemy enemy;
     private Rigidbody rb;
+    private Vector3 savedPos;
+    private Quaternion savedRotation;
 
     public void Init(Enemy enemy)
     {
         this.enemy = enemy;
         rb = GetComponent<Rigidbody>();
-        rb.useGravity = false;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.tag = "Enemy";
@@ -29,13 +31,15 @@ public class BodyPart : MonoBehaviour
         }
     }
 
-    public void SetGravity(bool physic)
+    public void SavePos()
     {
-        rb.useGravity = physic;
+        savedPos = transform.localPosition;
+        savedRotation = transform.localRotation;
     }
 
-    public void UnLockAxis()
+    public void RestorePos(float secs)
     {
-        rb.constraints = RigidbodyConstraints.None;
+        transform.DOLocalMove(savedPos, secs).Play();
+        transform.DOLocalRotateQuaternion(savedRotation, secs).Play();
     }
 }
