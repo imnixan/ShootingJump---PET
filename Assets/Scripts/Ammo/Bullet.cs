@@ -15,6 +15,7 @@ public class Bullet : Ammo
         base.Init(startPos, direction);
         transform.up = direction;
         rb.velocity = transform.up * ammoSpeed;
+        collider.enabled = true;
         rb.angularVelocity = new Vector3(0, ammoSpeed, 0);
     }
 
@@ -25,6 +26,7 @@ public class Bullet : Ammo
         {
             ammoPool.ReturnnPool(this);
             mr.enabled = false;
+            collider.enabled = false;
             ammoTrailRenderer.enabled = false;
         }
     }

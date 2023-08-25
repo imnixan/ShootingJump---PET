@@ -7,10 +7,10 @@ public class BodyPart : MonoBehaviour
     [SerializeField]
     private Enemy.BodyPartType bodyPartType;
 
+    private BreakableObject breakable;
+
     private Enemy enemy;
     private Rigidbody rb;
-    private Vector3 savedPos;
-    private Quaternion savedRotation;
 
     public void Init(Enemy enemy)
     {
@@ -19,27 +19,20 @@ public class BodyPart : MonoBehaviour
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.tag = "Enemy";
+        breakable = GetComponentInChildren<BreakableObject>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            Debug.Log("HIT");
             enemy.TakeDamage(bodyPartType);
-            Destroy(collision.gameObject);
-            Instantiate(enemy.Blood, collision.GetContact(0).point, new Quaternion());
+            if (breakable)
+            {
+                breakable.BreakObject(collision.GetContact(0).point);
+                transform.localScale = Vector3.zero;
+            }
         }
-    }
-
-    public void SavePos()
-    {
-        savedPos = transform.localPosition;
-        savedRotation = transform.localRotation;
-    }
-
-    public void RestorePos(float secs)
-    {
-        transform.DOLocalMove(savedPos, secs).Play();
-        transform.DOLocalRotateQuaternion(savedRotation, secs).Play();
     }
 }

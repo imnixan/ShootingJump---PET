@@ -11,8 +11,6 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float _hp;
 
-    public ParticleSystem Blood;
-    private float restoreTime;
     private RagdollSystem ragdollSystem;
     private Animator animator;
     private Dictionary<BodyPartType, float> DamageDic = new Dictionary<BodyPartType, float>
@@ -30,12 +28,11 @@ public class Enemy : MonoBehaviour
         {
             if (_hp > 0)
             {
-                StopAllCoroutines();
-                float damage = _hp - value;
-                restoreTime = damage * 0.002f;
-                Debug.Log($"Restore time {restoreTime} damage {damage}");
-                StartCoroutine(StopAnim(restoreTime));
                 _hp = value;
+                if (_hp == 0)
+                {
+                    EnemyKilled?.Invoke();
+                }
             }
         }
     }
@@ -57,27 +54,8 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(BodyPartType bodyPart)
     {
+        Destroy(animator);
         HP -= DamageDic[bodyPart];
         DamageTaken?.Invoke(DamageDic[bodyPart]);
-    }
-
-    public void TurnOnAnim()
-    {
-        animator.enabled = true;
-    }
-
-    private IEnumerator StopAnim(float secs)
-    {
-        ragdollSystem.SaveAnimPos();
-        animator.enabled = false;
-        yield return new WaitForSeconds(secs);
-        if (HP > 0)
-        {
-            ragdollSystem.RestoreAnimPos(1);
-        }
-        else
-        {
-            EnemyKilled?.Invoke();
-        }
     }
 }

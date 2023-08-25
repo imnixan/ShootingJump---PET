@@ -46,6 +46,7 @@ public abstract class Ammo : MonoBehaviour
         meshFilter = GetComponentInChildren<MeshFilter>();
         mr = GetComponentInChildren<MeshRenderer>();
         ammoTrailRenderer = GetComponentInChildren<TrailRenderer>();
+        collider = GetComponentInChildren<Collider>();
     }
 
     public virtual void Init(Vector3 startPos, Vector3 direction_or_rotation)
