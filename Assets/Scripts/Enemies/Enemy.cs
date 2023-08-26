@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         { BodyPartType.Arm, 20 }
     };
 
-    private int HP
+    public int HP
     {
         get { return _hp; }
         set
@@ -30,12 +30,25 @@ public class Enemy : MonoBehaviour
             if (_hp > 0)
             {
                 _hp = value;
-                if (_hp == 0)
+                if (_hp <= 0)
                 {
+                    //GetComponentInChildren<SkinnedMeshRenderer>().material = deadMat;
+                    StartCoroutine(DestroyEnemy());
+
                     EnemyKilled?.Invoke();
                 }
             }
         }
+    }
+
+    IEnumerator DestroyEnemy()
+    {
+        yield return new WaitForSeconds(0.05f);
+        foreach (var boom in GetComponentsInChildren<BreakableObject>())
+        {
+            boom.BreakObject(transform.position);
+        }
+        Destroy(gameObject);
     }
 
     public enum BodyPartType

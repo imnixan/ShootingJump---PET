@@ -162,7 +162,10 @@ public class BreakableObject : MonoBehaviour
         col.inflateMesh = true;
         col.convex = true;
         if (destroyPhysicsTime > 0 && destroyColliderWithPhysics)
+        {
             Destroy(col, destroyPhysicsTime);
+            Destroy(gameObject, destroyPhysicsTime);
+        }
 
         Rigidbody rigid = obj.AddComponent<Rigidbody>();
         rigid.centerOfMass = (v[0] + v[1] + v[2]) / 3f;

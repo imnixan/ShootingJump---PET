@@ -34,8 +34,10 @@ public class BodyPart : MonoBehaviour
             if (collision.gameObject.CompareTag("Bullet") && p > 15)
             {
                 AudioManager.Vibrate();
-
-                enemy.TakeDamage(bodyPartType);
+                if (GetEnemyHp() > 0)
+                {
+                    enemy.TakeDamage(bodyPartType);
+                }
                 if (breakable && !shooted)
                 {
                     Instantiate(explode, collision.GetContact(0).point, new Quaternion());
@@ -47,5 +49,10 @@ public class BodyPart : MonoBehaviour
                     shooted = true;
                 }
             }
+    }
+
+    public int GetEnemyHp()
+    {
+        return enemy.HP;
     }
 }

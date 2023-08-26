@@ -40,7 +40,6 @@ public abstract class Gun : MonoBehaviour
     protected ParticleSystem flash;
     protected int magazineValue;
     protected int ammoLeft;
-
     protected bool Falling
     {
         get { return _falling; }
@@ -104,9 +103,12 @@ public abstract class Gun : MonoBehaviour
 
     protected bool CheckTarget()
     {
-        if (Physics.Raycast(muzzle.transform.position, transform.right, out raycastHit))
+        if (Physics.Raycast(muzzle.transform.position, transform.right, out raycastHit, 25))
         {
-            if (raycastHit.collider.CompareTag("Enemy"))
+            if (
+                raycastHit.collider.CompareTag("Enemy")
+                && raycastHit.collider.GetComponent<BodyPart>().GetEnemyHp() > 0
+            )
             {
                 gameSpeedChanger.SlowTime();
                 return true;
