@@ -16,4 +16,6 @@ public class GameManager : MonoBehaviour
         Gun = PlayerPrefs.GetInt("CurrentGun");
         cameraMove.Init(Instantiate(guns[Gun]).transform);
     }
+
+    public void EndGame() { }
 }

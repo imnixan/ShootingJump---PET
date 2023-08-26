@@ -53,7 +53,6 @@ public class GameSpeedChanger : MonoBehaviour
 
     public void SlowTime()
     {
-        Debug.Log("SlowmoTime");
         CurrentGameSpeed = SlowMoSpeed;
         gameSpeedRestore.Restart();
         SlowMotion?.Invoke();

@@ -28,21 +28,24 @@ public class BodyPart : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
-        {
-            AudioManager.Vibrate();
-            AudioManager.PlayGlassSound(collision.GetContact(0).point);
-            enemy.TakeDamage(bodyPartType);
-            if (breakable && !shooted)
+        ContactPoint cp = collision.contacts[0];
+        float p = collision.relativeVelocity.magnitude;
+        if (p > 15)
+            if (collision.gameObject.CompareTag("Bullet") && p > 15)
             {
-                Instantiate(explode, collision.GetContact(0).point, new Quaternion());
-                breakable.BreakObject(collision.GetContact(0).point);
-                if (bodyPartType != Enemy.BodyPartType.Body)
+                AudioManager.Vibrate();
+
+                enemy.TakeDamage(bodyPartType);
+                if (breakable && !shooted)
                 {
-                    transform.localScale = Vector3.zero;
+                    Instantiate(explode, collision.GetContact(0).point, new Quaternion());
+                    breakable.BreakObject(collision.GetContact(0).point);
+                    if (bodyPartType != Enemy.BodyPartType.Body)
+                    {
+                        transform.localScale = Vector3.zero;
+                    }
+                    shooted = true;
                 }
-                shooted = true;
             }
-        }
     }
 }

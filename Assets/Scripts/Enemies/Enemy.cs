@@ -5,15 +5,15 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
-    public static event UnityAction<float> DamageTaken;
+    public static event UnityAction<int> DamageTaken;
     public static event UnityAction EnemyKilled;
 
     [SerializeField]
-    private float _hp;
+    private int _hp;
 
     private RagdollSystem ragdollSystem;
     private Animator animator;
-    private Dictionary<BodyPartType, float> DamageDic = new Dictionary<BodyPartType, float>
+    private Dictionary<BodyPartType, int> DamageDic = new Dictionary<BodyPartType, int>
     {
         { BodyPartType.Head, 125 },
         { BodyPartType.Body, 55 },
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         { BodyPartType.Arm, 20 }
     };
 
-    private float HP
+    private int HP
     {
         get { return _hp; }
         set
@@ -58,6 +58,11 @@ public class Enemy : MonoBehaviour
     {
         Destroy(animator);
         HP -= DamageDic[bodyPart];
-        DamageTaken?.Invoke(DamageDic[bodyPart]);
+        InvokeDamageTaken(DamageDic[bodyPart]);
+    }
+
+    protected void InvokeDamageTaken(int damage)
+    {
+        DamageTaken?.Invoke(damage);
     }
 }

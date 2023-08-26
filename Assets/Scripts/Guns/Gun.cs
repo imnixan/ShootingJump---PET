@@ -25,6 +25,7 @@ public abstract class Gun : MonoBehaviour
         triggerShootStart,
         triggerShootEnd;
 
+    protected GameManager gameManager;
     protected bool _falling;
     protected AmmoPoolManager ammoPool;
     protected Rigidbody rb;
@@ -63,6 +64,7 @@ public abstract class Gun : MonoBehaviour
 
         CreateFireAnim();
         CreateEndAmmoAnim();
+        gameManager = FindAnyObjectByType<GameManager>();
     }
 
     protected virtual void InitFields()
@@ -203,11 +205,23 @@ public abstract class Gun : MonoBehaviour
         {
             ReloadAmmo();
         }
+        if (other.CompareTag("EndLevel"))
+        {
+            gameManager.EndGame();
+        }
     }
 
     protected virtual void ReloadAmmo()
     {
         ammoLeft = magazineValue;
         UpdateAmmo();
+    }
+
+    private void OnDisable()
+    {
+        foreach (var rb in GetComponentsInChildren<Rigidbody>())
+        {
+            rb.isKinematic = true;
+        }
     }
 }

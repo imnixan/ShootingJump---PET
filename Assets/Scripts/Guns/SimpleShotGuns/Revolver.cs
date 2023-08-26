@@ -16,7 +16,7 @@ public class Revolver : Gun
 
     protected override void SetupWeapon()
     {
-        bouncePower = 25f;
+        bouncePower = 18f;
         animStepDuration = 0.05f;
         recoilForce = bouncePower / 4;
         magazineValue = 15;

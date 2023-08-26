@@ -34,9 +34,6 @@ public class BreakableObject : MonoBehaviour
     [Tooltip("Seconds after window is broken that splinters have to be destroyed.")]
     public float destroySplintersTime = 0;
 
-    [Space]
-    public AudioClip breakingSound;
-
     [HideInInspector]
     public bool isBroken = false;
 
@@ -53,13 +50,13 @@ public class BreakableObject : MonoBehaviour
     {
         if (preCalculate == true && allreadyCalculated == false)
         {
-            bakeVertices();
-            bakeSplinters();
+            BakeVertices();
+            BakeSplinters();
             allreadyCalculated = true;
         }
     }
 
-    private void bakeVertices(bool trianglesToo = false)
+    private void BakeVertices(bool trianglesToo = false)
     {
         vertices = new Vector3[(partsX + 1) * (partsY + 1)];
         normals = new Vector3[(partsX + 1) * (partsY + 1)];
@@ -105,7 +102,7 @@ public class BreakableObject : MonoBehaviour
         }
     }
 
-    private void generateSingleSplinter(int[] tris, Transform parent)
+    private void GenerateSingleSplinter(int[] tris, Transform parent)
     {
         Vector3[] v = new Vector3[3];
         Vector3[] n = new Vector3[3];
@@ -184,7 +181,7 @@ public class BreakableObject : MonoBehaviour
         mr.materials = GetComponent<Renderer>().materials;
     }
 
-    private void bakeSplinters()
+    private void BakeSplinters()
     {
         int[] t = new int[3];
         splinters = new List<GameObject>();
@@ -202,13 +199,13 @@ public class BreakableObject : MonoBehaviour
                 t[1] = y * (partsX + 1) + x + 1;
                 t[2] = (y + 1) * (partsX + 1) + x;
 
-                generateSingleSplinter(t, splinterParent.transform);
+                GenerateSingleSplinter(t, splinterParent.transform);
 
                 t[0] = (y + 1) * (partsX + 1) + x;
                 t[1] = y * (partsX + 1) + x + 1;
                 t[2] = (y + 1) * (partsX + 1) + x + 1;
 
-                generateSingleSplinter(t, splinterParent.transform);
+                GenerateSingleSplinter(t, splinterParent.transform);
             }
         }
     }
@@ -220,7 +217,7 @@ public class BreakableObject : MonoBehaviour
     public GameObject[] BreakObject(Vector3 breakPoint)
     {
         transform.parent = null;
-
+        AudioManager.PlayGlassSound(transform.position);
         if (isBroken == false)
         {
             if (allreadyCalculated == true)
@@ -248,8 +245,8 @@ public class BreakableObject : MonoBehaviour
             }
             else
             {
-                bakeVertices();
-                bakeSplinters();
+                BakeVertices();
+                BakeSplinters();
             }
 
             Physics.IgnoreLayerCollision(layer.value, layer.value, true);
@@ -260,21 +257,17 @@ public class BreakableObject : MonoBehaviour
             isBroken = true;
         }
 
-        if (breakingSound != null)
-        {
-            GetComponent<AudioSource>().clip = breakingSound;
-            GetComponent<AudioSource>().Play();
-        }
-
         return splinters.ToArray();
     }
 
     void OnCollisionEnter(Collision col)
     {
+        Debug.Log($"{gameObject.name}, {col.gameObject.name}");
         if (useCollision == true)
         {
             if (health > 0)
             {
+                Debug.Log(col.impulse.magnitude);
                 health -= col.impulse.magnitude;
                 if (health < 0)
                 {
