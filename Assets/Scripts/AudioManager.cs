@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
 
     private static AudioClip[] ShootSounds,
         SleeveSounds;
+    private static AudioClip glassBreak;
     public static float Pitch
     {
         set { sound.pitch = value; }
@@ -15,6 +16,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         sound = gameObject.AddComponent<AudioSource>();
+        glassBreak = Resources.Load<AudioClip>("Sounds/GlassBreak");
         InitPistolSounds();
     }
 
@@ -42,5 +44,10 @@ public class AudioManager : MonoBehaviour
     public static void Vibrate()
     {
         Handheld.Vibrate();
+    }
+
+    public static void PlayGlassSound(Vector3 position)
+    {
+        AudioSource.PlayClipAtPoint(glassBreak, position);
     }
 }

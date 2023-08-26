@@ -31,6 +31,7 @@ public class BodyPart : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             AudioManager.Vibrate();
+            AudioManager.PlayGlassSound(collision.GetContact(0).point);
             enemy.TakeDamage(bodyPartType);
             if (breakable && !shooted)
             {
