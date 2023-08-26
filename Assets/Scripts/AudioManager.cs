@@ -43,7 +43,9 @@ public class AudioManager : MonoBehaviour
 
     public static void Vibrate()
     {
+#if !PLATFORM_STANDALONE_WIN
         Handheld.Vibrate();
+#endif
     }
 
     public static void PlayGlassSound(Vector3 position)
