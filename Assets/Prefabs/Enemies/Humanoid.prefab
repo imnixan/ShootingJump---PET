@@ -50,7 +50,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353171318483613
@@ -125,7 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 3
+  bodyPartType: 4
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172052612017}
 --- !u!1 &920596855328240969
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +179,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!65 &4761353172626828004
@@ -251,7 +253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 1
+  bodyPartType: 2
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 0}
 --- !u!1 &1673509180042362655
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +306,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353171686165476
@@ -377,7 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 3
+  bodyPartType: 4
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172870292380}
 --- !u!1 &2378740257292324640
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +466,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!135 &4761353172462022261
@@ -535,6 +541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyPartType: 0
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172564788221}
 --- !u!1 &3048851843805447125
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +687,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353171658574857
@@ -754,7 +762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 2
+  bodyPartType: 3
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172565879237}
 --- !u!1 &4171658686188156011
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +815,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353173071787960
@@ -880,7 +890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 2
+  bodyPartType: 3
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172412392581}
 --- !u!1 &4555523039596275603
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +975,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353172513009918
@@ -1038,7 +1050,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 2
+  bodyPartType: 3
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172692641678}
 --- !u!1 &4761353171608053237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1245,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -1431,7 +1445,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -1631,7 +1645,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -1831,7 +1845,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2031,7 +2045,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2231,7 +2245,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2431,7 +2445,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2631,7 +2645,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2831,7 +2845,7 @@ MonoBehaviour:
   preCalculate: 1
   addTorques: 1
   hideSplintersInHierarchy: 0
-  useCollision: 1
+  useCollision: 0
   health: 0
   destroyPhysicsTime: 5
   destroyColliderWithPhysics: 1
@@ -2921,7 +2935,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!65 &4761353171686165477
@@ -2950,6 +2964,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodyPartType: 1
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 0}
 --- !u!1 &5679831509780248261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3002,7 +3018,13 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
+    'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:RightArm'\n\tTransform
+    'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform 'mixamorig:RightFoot'\n\tTransform
+    'mixamorig:Head'\n\tTransform 'mixamorig:LeftUpLeg'\n\tand more ...\n\tFrom animation
+    clip 'idle'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -3293,7 +3315,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353173270702911
@@ -3368,7 +3390,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 3
+  bodyPartType: 4
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353171608053239}
 --- !u!1 &7608478097982652857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,7 +3443,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353172918972282
@@ -3494,7 +3518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 3
+  bodyPartType: 4
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172425888368}
 --- !u!1 &7650137828718181968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3608,7 +3634,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 2
   m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!136 &4761353172302839924
@@ -3683,7 +3709,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bd5f8fb23d6a146b1ca46d33372e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartType: 2
+  bodyPartType: 3
+  explode: {fileID: 1429954232896169632, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  breakable: {fileID: 4761353172742975181}
 --- !u!1 &8499633812368309996
 GameObject:
   m_ObjectHideFlags: 0

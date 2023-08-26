@@ -7,10 +7,15 @@ public class BodyPart : MonoBehaviour
     [SerializeField]
     private Enemy.BodyPartType bodyPartType;
 
+    [SerializeField]
+    private ParticleSystem explode;
+
+    [SerializeField]
     private BreakableObject breakable;
 
     private Enemy enemy;
     private Rigidbody rb;
+    private bool shooted;
 
     public void Init(Enemy enemy)
     {
@@ -19,19 +24,23 @@ public class BodyPart : MonoBehaviour
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.tag = "Enemy";
-        breakable = GetComponentInChildren<BreakableObject>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            Debug.Log("HIT");
+            AudioManager.Vibrate();
             enemy.TakeDamage(bodyPartType);
-            if (breakable)
+            if (breakable && !shooted)
             {
+                Instantiate(explode, collision.GetContact(0).point, new Quaternion());
                 breakable.BreakObject(collision.GetContact(0).point);
-                transform.localScale = Vector3.zero;
+                if (bodyPartType != Enemy.BodyPartType.Body)
+                {
+                    transform.localScale = Vector3.zero;
+                }
+                shooted = true;
             }
         }
     }

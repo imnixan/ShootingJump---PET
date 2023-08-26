@@ -16,11 +16,15 @@ public class Bullet : Ammo
         transform.up = direction;
         rb.velocity = transform.up * ammoSpeed;
         collider.enabled = true;
+        rb.interpolation = RigidbodyInterpolation.Extrapolate;
+        rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         rb.angularVelocity = new Vector3(0, ammoSpeed, 0);
+        rb.useGravity = false;
     }
 
     protected override void OnCollisionEnter(Collision collision)
     {
+        rb.useGravity = true;
         base.OnCollisionEnter(collision);
         if (collision.gameObject.CompareTag("Enemy"))
         {

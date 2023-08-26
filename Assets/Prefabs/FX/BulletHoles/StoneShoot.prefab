@@ -9556,7 +9556,7 @@ GameObject:
   - component: {fileID: 3150831692734636359}
   - component: {fileID: 5413769019251897573}
   m_Layer: 0
-  m_Name: HitEffectStone
+  m_Name: StoneShoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,7 +10,7 @@ public class GameSpeedChanger : MonoBehaviour
 
     public static float RestoreTime
     {
-        get { return 1.5f; }
+        get { return 3f; }
     }
 
     public float _currentGameSpeed;
@@ -21,7 +21,6 @@ public class GameSpeedChanger : MonoBehaviour
     private const float MaxGameSpeed = 1;
     private Sequence gameSpeedRestore;
     private const float SlowMoSpeed = 0.05f;
-
     private float CurrentGameSpeed
     {
         get { return _currentGameSpeed; }
@@ -34,7 +33,7 @@ public class GameSpeedChanger : MonoBehaviour
             }
             Time.timeScale = _currentGameSpeed;
             AudioManager.Pitch = _currentGameSpeed;
-            bgLight.color = Color.white * _currentGameSpeed;
+            bgLight.intensity = _currentGameSpeed;
         }
     }
 
@@ -54,6 +53,7 @@ public class GameSpeedChanger : MonoBehaviour
 
     public void SlowTime()
     {
+        Debug.Log("SlowmoTime");
         CurrentGameSpeed = SlowMoSpeed;
         gameSpeedRestore.Restart();
         SlowMotion?.Invoke();

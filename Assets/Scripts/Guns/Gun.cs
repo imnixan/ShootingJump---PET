@@ -32,7 +32,7 @@ public abstract class Gun : MonoBehaviour
     protected float bouncePower;
     protected float recoilForce;
     protected RaycastHit raycastHit;
-    public bool canShoot;
+    protected bool canShoot;
     protected float animStepDuration;
     protected Sequence fireAnim;
     protected Sequence endAmmoAnim;
@@ -167,7 +167,6 @@ public abstract class Gun : MonoBehaviour
         {
             if (ammoLeft > 0)
             {
-                Falling = true;
                 Shoot();
             }
             else
@@ -197,4 +196,18 @@ public abstract class Gun : MonoBehaviour
     }
 
     protected virtual void PullOffTrigger() { }
+
+    protected virtual void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Ammo"))
+        {
+            ReloadAmmo();
+        }
+    }
+
+    protected virtual void ReloadAmmo()
+    {
+        ammoLeft = magazineValue;
+        UpdateAmmo();
+    }
 }

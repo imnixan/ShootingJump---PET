@@ -27,7 +27,6 @@ public class AudioManager : MonoBehaviour
     public static void PlayShootSound()
     {
         sound.PlayOneShot(ShootSounds.GetRandomElement());
-        Vibrate();
     }
 
     public static void PlaySleeveSound(Vector3 position)

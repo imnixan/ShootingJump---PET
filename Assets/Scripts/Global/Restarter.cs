@@ -9,7 +9,7 @@ public class Restarter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("JumpShooter");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

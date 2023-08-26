@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
     {
         { BodyPartType.Head, 125 },
         { BodyPartType.Body, 55 },
+        { BodyPartType.Chest, 100 },
         { BodyPartType.Leg, 30 },
         { BodyPartType.Arm, 20 }
     };
@@ -41,6 +42,7 @@ public class Enemy : MonoBehaviour
     {
         Head,
         Body,
+        Chest,
         Arm,
         Leg
     }

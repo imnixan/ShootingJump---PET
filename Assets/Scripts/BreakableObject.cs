@@ -57,9 +57,6 @@ public class BreakableObject : MonoBehaviour
             bakeSplinters();
             allreadyCalculated = true;
         }
-
-        if (transform.rotation.eulerAngles.x != 0 || transform.rotation.eulerAngles.z != 0)
-            Debug.LogWarning("Warning: Window must not be rotated around x and z!");
     }
 
     private void bakeVertices(bool trianglesToo = false)
@@ -229,22 +226,23 @@ public class BreakableObject : MonoBehaviour
             if (allreadyCalculated == true)
             {
                 splinterParent.SetActive(true);
-                if (addTorques)
+                if (addTorques && splinters.Count > 0)
                 {
                     for (int i = 0; i < splinters.Count; i++)
                     {
-                        splinters[i]
-                            .GetComponent<Rigidbody>()
-                            .AddTorque(
+                        Rigidbody rb;
+                        splinters[i].TryGetComponent<Rigidbody>(out rb);
+                        if (rb)
+                        {
+                            rb.AddTorque(
                                 new Vector3(
                                     Random.value > 0.5f ? Random.value * 50 : -Random.value * 50,
                                     Random.value > 0.5f ? Random.value * 50 : -Random.value * 50,
                                     Random.value > 0.5f ? Random.value * 50 : -Random.value * 50
                                 )
                             );
-                        splinters[i]
-                            .GetComponent<Rigidbody>()
-                            .AddExplosionForce(500, breakPoint, 100);
+                            rb.AddExplosionForce(500, breakPoint, 100);
+                        }
                     }
                 }
             }

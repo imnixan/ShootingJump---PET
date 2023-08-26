@@ -4,9 +4,7 @@ using DG.Tweening;
 
 public class CameraMove : MonoBehaviour
 {
-    [SerializeField]
     private Transform playerTransform;
-
     private const float NormalFov = 60;
     private const float SlowMoFov = 110;
     private Transform cameraTransform;
@@ -50,8 +48,9 @@ public class CameraMove : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void Init(Transform player)
     {
+        this.playerTransform = player;
         cameraTransform = transform;
         zPos = cameraTransform.position.z;
         camera = GetComponent<Camera>();
