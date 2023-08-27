@@ -3,21 +3,40 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+using DG.Tweening;
+
 public class StartScene : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] guns;
+    private GameObject[] gunsObj;
 
+    [SerializeField]
+    private Vector3 showPos,
+        hidePos;
+
+    [SerializeField]
     private Slider slider;
 
     private GameObject currentGun;
+
+    private Gun gun;
+    private Sequence changeWeapon;
 
     private void Start()
     {
         Screen.orientation = ScreenOrientation.LandscapeLeft;
         Application.targetFrameRate = 300;
-        slider = GetComponentInChildren<Slider>();
-        slider.maxValue = guns.Length - 1;
+        slider.maxValue = gunsObj.Length - 1;
+
+        changeWeapon = DOTween.Sequence();
+        changeWeapon.Append(transform.DOMove(hidePos, 0.3f));
+        changeWeapon.AppendCallback(() =>
+        {
+            Destroy(currentGun);
+            currentGun = Instantiate(gunsObj[(int)slider.value], transform);
+        });
+        changeWeapon.Append(transform.DOMove(showPos, 0.3f));
+
         OnGunChange();
     }
 
@@ -30,8 +49,6 @@ public class StartScene : MonoBehaviour
 
     public void OnGunChange()
     {
-        Destroy(currentGun);
-        currentGun = Instantiate(guns[(int)slider.value], new Vector3(-5, 0, 0), new Quaternion());
-        currentGun.GetComponent<Gun>().enabled = false;
+        changeWeapon.Restart();
     }
 }

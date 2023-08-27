@@ -164,7 +164,7 @@ public abstract class Gun : MonoBehaviour
         Destroy(GetComponent<FixedJoint>());
     }
 
-    protected virtual void PullTrigger()
+    public virtual void PullTrigger()
     {
         Falling = true;
         if (canShoot)

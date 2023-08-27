@@ -6,7 +6,7 @@ public abstract class AutoFireGun : Gun
 {
     public bool fire;
 
-    protected override void PullTrigger()
+    public override void PullTrigger()
     {
         Debug.Log("pullTrigger");
         fire = true;

@@ -28,7 +28,7 @@ public class Revolver : Gun
         endAmmoAnim.Append(slide.DOLocalMoveZ(slideShootEnd, animStepDuration));
     }
 
-    protected override void PullTrigger()
+    public override void PullTrigger()
     {
         Falling = true;
         if (canShoot)
