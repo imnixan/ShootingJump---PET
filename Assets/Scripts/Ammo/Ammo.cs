@@ -9,7 +9,8 @@ public abstract class Ammo : MonoBehaviour
         PistolBullet,
         PistolSleeve,
         M4Bullet,
-        M4Sleeve
+        M4Sleeve,
+        ShotGunSleeve
     }
 
     protected AmmoType _currenType;
@@ -37,6 +38,7 @@ public abstract class Ammo : MonoBehaviour
         Type = ammoSettings.AmmoType;
         rb.mass = ammoSettings.AmmoMass;
         mr.material = ammoSettings.AmmoMaterial;
+        transform.localScale = ammoSettings.AmmoScale;
         SetupTrail(ammoSettings.AmmoTrail);
     }
 
@@ -54,14 +56,18 @@ public abstract class Ammo : MonoBehaviour
     public virtual void Init(Vector3 startPos, Vector3 direction_or_rotation)
     {
         transform.position = startPos;
-        ammoTrailRenderer.enabled = true;
         ammoTrailRenderer.Clear();
+        ammoTrailRenderer.enabled = true;
         mr.enabled = true;
     }
 
     protected virtual void OnCollisionEnter(Collision collision)
     {
-        if (!collision.gameObject.CompareTag("Gun") && !collision.gameObject.CompareTag("Enemy"))
+        if (
+            !collision.gameObject.CompareTag("Gun")
+            && !collision.gameObject.CompareTag("Enemy")
+            && !collision.gameObject.CompareTag("Bullet")
+        )
         {
             ammoPool.ReturnnPool(this);
             ammoTrailRenderer.enabled = false;

@@ -72,7 +72,7 @@ public class Revolver : Gun
         AudioManager.PlaySound(gunClick);
         slide.DOLocalRotate(new Vector3(slideShootStart, 0, 0), 0.01f).Play();
         trigger.DOLocalRotate(new Vector3(triggerShootStart, 0, 0), 0.01f).Play();
-        outlet.DOShakeRotation(1f, 1);
+        outlet.DOLocalRotate(outlet.localEulerAngles + new Vector3(0, 60, 0), 0.01f).Play();
         canShoot = true;
     }
 }

@@ -8,9 +8,9 @@ public class Bonus : MonoBehaviour
     {
         { 0, "Prefabs/PistolMagazin" },
         { 1, "Prefabs/RevolverDrum" },
-        { 2, "Prefabs/UziMagazin" },
-        { 3, "Prefabs/M4Magazin" },
-        { 4, "Prefabs/AKMagazin" }
+        { 2, "Prefabs/KrissMagazin" },
+        { 3, "Prefabs/AKMagazin" },
+        { 4, "Prefabs/ShotGunMagazin" }
     };
 
     private Transform model;

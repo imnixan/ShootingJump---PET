@@ -53,7 +53,7 @@ public class AmmoSettings : ScriptableObject
     {
         get { return _ammoMass; }
     }
-    public Vector3 AmoScale
+    public Vector3 AmmoScale
     {
         get { return _ammoScale; }
     }

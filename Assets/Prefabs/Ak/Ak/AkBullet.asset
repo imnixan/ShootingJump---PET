@@ -15,7 +15,7 @@ MonoBehaviour:
   _ammoMesh: {fileID: 1825911833616084214, guid: 3ee7f77f1023daf4e9751ce06f6bddc7, type: 3}
   _ammoSpeed: 50
   _ammoMaterial: {fileID: 2100000, guid: 8b063dc30cd912f45ac863b0a85a2371, type: 2}
-  _ammoTrail: {fileID: 11400000, guid: e438ff4ef733c974ca4295f00886c2b8, type: 2}
+  _ammoTrail: {fileID: 11400000, guid: 49f75fc6c84b44c45b43e2d6ec91a4d1, type: 2}
   _ammoType: 3
   _ammoMass: 50
-  _ammoScale: {x: 0.1, y: 0.1, z: 0.1}
+  _ammoScale: {x: 10, y: 10, z: 10}

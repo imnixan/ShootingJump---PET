@@ -18,4 +18,4 @@ MonoBehaviour:
   _ammoTrail: {fileID: 11400000, guid: 0866d1058a8ded846a8bf5354b8729d6, type: 2}
   _ammoType: 4
   _ammoMass: 0.01
-  _ammoScale: {x: 0.1, y: 0.1, z: 0.1}
+  _ammoScale: {x: 10, y: 10, z: 10}

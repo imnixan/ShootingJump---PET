@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505970037735441485}
-  m_Mesh: {fileID: 3477551807173390131, guid: eb6fb30532e4f0a4b8a2278f7dae041d, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!23 &1302024400982693770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -95,10 +95,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.007554995
-  m_Height: 0.010313246
-  m_Direction: 1
-  m_Center: {x: -0.0024230874, y: 0, z: 0}
+  m_Radius: 0.005577411
+  m_Height: 0.017628029
+  m_Direction: 0
+  m_Center: {x: -0.0012371056, y: 0.00016405173, z: 0}
 --- !u!96 &1417516755284250680
 TrailRenderer:
   serializedVersion: 2
@@ -225,7 +225,7 @@ Transform:
   m_GameObject: {fileID: 1250058932261024821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6062041697791691569}
