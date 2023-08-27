@@ -2,7 +2,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class CameraMove : MonoBehaviour
+public class CameraMover : MonoBehaviour
 {
     private Transform playerTransform;
     private const float NormalFov = 60;

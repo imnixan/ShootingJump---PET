@@ -7,7 +7,9 @@ public abstract class Ammo : MonoBehaviour
     {
         Null,
         PistolBullet,
-        PistolSleeve
+        PistolSleeve,
+        M4Bullet,
+        M4Sleeve
     }
 
     protected AmmoType _currenType;

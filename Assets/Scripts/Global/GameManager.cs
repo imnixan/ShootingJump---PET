@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private GameObject[] guns;
 
     [SerializeField]
-    private CameraMove cameraMove;
+    private CameraMover cameraMove;
 
     private void Start()
     {

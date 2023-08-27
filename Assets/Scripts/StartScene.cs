@@ -17,6 +17,7 @@ public class StartScene : MonoBehaviour
         Screen.orientation = ScreenOrientation.LandscapeLeft;
         Application.targetFrameRate = 300;
         slider = GetComponentInChildren<Slider>();
+        slider.maxValue = guns.Length - 1;
         OnGunChange();
     }
 
