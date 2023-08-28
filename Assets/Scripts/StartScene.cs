@@ -24,9 +24,12 @@ public class StartScene : MonoBehaviour
 
     private void Start()
     {
+        DOTween.KillAll();
+        Time.timeScale = 1;
         Screen.orientation = ScreenOrientation.LandscapeLeft;
         Application.targetFrameRate = 300;
         slider.maxValue = gunsObj.Length - 1;
+        slider.value = PlayerPrefs.GetInt("CurrentGun");
 
         changeWeapon = DOTween.Sequence();
         changeWeapon.Append(transform.DOMove(hidePos, 0.3f));
