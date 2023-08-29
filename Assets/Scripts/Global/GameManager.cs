@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     private GameObject[] guns;
 
     [SerializeField]
+    ScoresCounter scoreCounter;
+
+    [SerializeField]
     private CameraMover cameraMove;
 
     private void Start()

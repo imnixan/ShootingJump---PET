@@ -11,14 +11,11 @@ public class AmmoCounter : MonoBehaviour
 
     private void Awake()
     {
-        ammoValue = transform.GetChild(0).GetComponent<Image>();
         ammoValueText = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    public static void UpdateAmmoCounter(int currentAmmo, int maxAmmo)
+    public static void UpdateAmmoCounter(int currentAmmo)
     {
-        float fillValue = (float)currentAmmo / (float)maxAmmo;
-        ammoValue.fillAmount = fillValue;
         ammoValueText.text = currentAmmo.ToString();
     }
 }

@@ -98,7 +98,7 @@ public abstract class Gun : MonoBehaviour
 
     protected void UpdateAmmo()
     {
-        AmmoCounter.UpdateAmmoCounter(ammoLeft, magazineValue);
+        AmmoCounter.UpdateAmmoCounter(ammoLeft);
     }
 
     protected bool CheckTarget()
