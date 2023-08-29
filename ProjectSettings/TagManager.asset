@@ -15,6 +15,7 @@ TagManager:
   - Sleeve
   - Ammo
   - EndLevel
+  - pushZone
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Enemy
   - Sleeve
   - BG
-  - 
+  - PushZone
   - 
   - 
   - 

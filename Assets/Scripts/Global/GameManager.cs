@@ -17,5 +17,8 @@ public class GameManager : MonoBehaviour
         cameraMove.Init(Instantiate(guns[Gun]).transform);
     }
 
-    public void EndGame() { }
+    public void EndGame()
+    {
+        Debug.Log("EndGame");
+    }
 }

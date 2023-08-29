@@ -5,7 +5,8 @@ using TMPro;
 public class ScoresCounter : DamageListeners
 {
     private TextMeshProUGUI scoresUI;
-    private int scores;
+    public int scores;
+    public int enemyKilled;
 
     private void Start()
     {
@@ -18,5 +19,8 @@ public class ScoresCounter : DamageListeners
         scoresUI.text = scores.ToString();
     }
 
-    protected override void OnEnemyKill() { }
+    protected override void OnEnemyKill()
+    {
+        enemyKilled++;
+    }
 }

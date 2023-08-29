@@ -12,9 +12,9 @@ public class Kriss : AutoFireGun
 
     protected override void SetupWeapon()
     {
-        bouncePower = 15f;
+        bouncePower = 20f;
         animStepDuration = 0.02f;
-        recoilForce = bouncePower / 5;
+        recoilForce = bouncePower / 4.5f;
         magazineValue = 50;
     }
 

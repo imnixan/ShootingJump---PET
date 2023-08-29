@@ -213,6 +213,14 @@ public abstract class Gun : MonoBehaviour
         }
     }
 
+    protected void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("pushZone"))
+        {
+            rb.AddForce(other.GetComponent<OutWallPusher>().GetPushForce(), ForceMode.Impulse);
+        }
+    }
+
     protected virtual void ReloadAmmo()
     {
         ammoLeft = magazineValue;

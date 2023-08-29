@@ -9,6 +9,12 @@ public abstract class DamageListeners : MonoBehaviour
         Enemy.EnemyKilled += OnEnemyKill;
     }
 
+    protected virtual void OnDisable()
+    {
+        Enemy.DamageTaken -= OnDamageTaken;
+        Enemy.EnemyKilled -= OnEnemyKill;
+    }
+
     protected abstract void OnDamageTaken(int damage);
 
     protected abstract void OnEnemyKill();

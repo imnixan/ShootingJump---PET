@@ -14655,9 +14655,9 @@ GameObject:
   - component: {fileID: 344581479}
   - component: {fileID: 344581481}
   - component: {fileID: 344581480}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone (3)
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14690,7 +14690,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 1
-  pushRb: {fileID: 0}
 --- !u!65 &344581481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14702,8 +14701,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.55216265, y: 1, z: 1}
+  m_Center: {x: -0.22391832, y: 0, z: 0}
 --- !u!1 &348569279
 GameObject:
   m_ObjectHideFlags: 0
@@ -15174,6 +15173,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hit: {fileID: 2865781930523373033, guid: 2c479d63fe7fb404993f2aff2a55b3ff, type: 3}
+--- !u!1 &443170455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 443170456}
+  - component: {fileID: 443170458}
+  - component: {fileID: 443170457}
+  m_Layer: 11
+  m_Name: PushZone (6)
+  m_TagString: pushZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443170456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443170455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 74.95, y: -2.39, z: 0}
+  m_LocalScale: {x: 4.2262, y: 7.4000764, z: 4.2262}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1835507390}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443170457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443170455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d5bfb5bc2c7fb45ae6414ad642c80c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushSide: 1
+--- !u!65 &443170458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443170455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5549103, y: 0.39707553, z: 1}
+  m_Center: {x: 0.4221521, y: -0.3014631, z: 0}
 --- !u!1 &445583102
 GameObject:
   m_ObjectHideFlags: 0
@@ -30003,9 +30061,9 @@ GameObject:
   - component: {fileID: 836496299}
   - component: {fileID: 836496301}
   - component: {fileID: 836496300}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone (5)
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30038,7 +30096,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 0
-  pushRb: {fileID: 0}
 --- !u!65 &836496301
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30404,9 +30461,9 @@ GameObject:
   - component: {fileID: 905647317}
   - component: {fileID: 905647319}
   - component: {fileID: 905647318}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone (4)
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30439,7 +30496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 0
-  pushRb: {fileID: 0}
 --- !u!65 &905647319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30464,9 +30520,9 @@ GameObject:
   - component: {fileID: 922711464}
   - component: {fileID: 922711466}
   - component: {fileID: 922711465}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30499,7 +30555,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 1
-  pushRb: {fileID: 0}
 --- !u!65 &922711466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30511,8 +30566,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.522239, y: 0.713286, z: 1}
-  m_Center: {x: 0.23887959, y: 0.14335845, z: 0}
+  m_Size: {x: 0.1685843, y: 0.713286, z: 2.824581}
+  m_Center: {x: 0.06205224, y: 0.14335845, z: 0.18481563}
 --- !u!1 &932392003
 GameObject:
   m_ObjectHideFlags: 0
@@ -36170,9 +36225,9 @@ GameObject:
   - component: {fileID: 1051652345}
   - component: {fileID: 1051652347}
   - component: {fileID: 1051652346}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone (1)
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36205,7 +36260,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 0
-  pushRb: {fileID: 0}
 --- !u!65 &1051652347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36217,8 +36271,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.64406717, y: 1, z: 1}
-  m_Center: {x: -0.17796607, y: 0, z: 0}
+  m_Size: {x: 0.27623641, y: 1, z: 1}
+  m_Center: {x: 0.0059491815, y: 0, z: 0}
 --- !u!1001 &1055688045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74604,7 +74658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835507390}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74629,6 +74683,7 @@ Transform:
   - {fileID: 344581479}
   - {fileID: 905647317}
   - {fileID: 836496299}
+  - {fileID: 443170456}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -75385,9 +75440,9 @@ GameObject:
   - component: {fileID: 1965539444}
   - component: {fileID: 1965539446}
   - component: {fileID: 1965539445}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PushZone (2)
-  m_TagString: Untagged
+  m_TagString: pushZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75420,7 +75475,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushSide: 1
-  pushRb: {fileID: 0}
 --- !u!65 &1965539446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75432,8 +75486,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.64406717, y: 1, z: 1}
-  m_Center: {x: -0.17796607, y: 0, z: 0}
+  m_Size: {x: 0.2504476, y: 1, z: 1}
+  m_Center: {x: -0.37477586, y: 0, z: 0}
 --- !u!1001 &1971235634
 PrefabInstance:
   m_ObjectHideFlags: 0
