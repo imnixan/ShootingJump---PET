@@ -4,7 +4,7 @@ using UnityEngine;
 public class GameEndData
 {
     private const int TimeBonusMultiplier = 10;
-    private const int KillAllMultiplayer = 2;
+    private const int KillAllMultiplayer = 5;
     private readonly int damage;
     private readonly int kills;
     private readonly int totalEnemies;

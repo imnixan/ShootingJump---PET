@@ -786,7 +786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8903635656778592078}
-  - component: {fileID: 8903635656778592076}
+  - component: {fileID: 833631453679614605}
   m_Layer: 6
   m_Name: M1911
   m_TagString: Gun
@@ -812,25 +812,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8903635656778592076
+--- !u!114 &833631453679614605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8903635656778592079}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 260f1728a9f8b804abf9d303b04cf33c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e73e057de6394d4e9202fea1b88ab59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSettings: {fileID: 11400000, guid: 9341104a013b01545bc009b66babf346, type: 2}
-  sleeveSettings: {fileID: 11400000, guid: 8dd4fd4877e47144a829dc015b4d3acc, type: 2}
-  muzzle: {fileID: 0}
-  outlet: {fileID: 0}
-  slide: {fileID: 7936316270145424727}
-  trigger: {fileID: 7936316270145424721}
-  slideShootStart: -0.135
-  slideShootEnd: -0.09
-  triggerShootStart: -0.006108732
-  triggerShootEnd: 0
+  gunName: M1911
+  gunDescription: Simple pistol. Pew, pew.
+  gunPrice: 0
