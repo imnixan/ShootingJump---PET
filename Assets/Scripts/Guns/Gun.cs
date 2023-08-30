@@ -25,6 +25,9 @@ public abstract class Gun : MonoBehaviour
         triggerShootStart,
         triggerShootEnd;
 
+    [SerializeField]
+    protected bool chillin;
+
     protected GameManager gameManager;
     protected bool _falling;
     protected AmmoPoolManager ammoPool;
@@ -81,6 +84,17 @@ public abstract class Gun : MonoBehaviour
     protected virtual void Update()
     {
         CheckTrigger();
+
+        if (ammoLeft == 0 && chillin)
+        {
+            canShoot = false;
+            gameManager.EndGame(false);
+        }
+    }
+
+    protected virtual void LateUpdate()
+    {
+        chillin = rb.angularVelocity == Vector3.zero;
     }
 
     protected virtual void CheckTrigger()
@@ -209,7 +223,8 @@ public abstract class Gun : MonoBehaviour
         }
         if (other.CompareTag("EndLevel"))
         {
-            gameManager.EndGame();
+            canShoot = false;
+            gameManager.EndGame(true);
         }
     }
 
@@ -217,7 +232,10 @@ public abstract class Gun : MonoBehaviour
     {
         if (other.CompareTag("pushZone"))
         {
-            rb.AddForce(other.GetComponent<OutWallPusher>().GetPushForce(), ForceMode.Impulse);
+            rb.AddForce(
+                other.GetComponent<OutWallPusher>().GetPushForce() + Vector3.up * 0.5f,
+                ForceMode.Impulse
+            );
         }
     }
 

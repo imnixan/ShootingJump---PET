@@ -2,25 +2,17 @@
 using UnityEngine;
 using TMPro;
 
-public class ScoresCounter : DamageListeners
+public class ScoresCounter : MonoBehaviour
 {
     private TextMeshProUGUI scoresUI;
-    public int scores;
-    public int enemyKilled;
 
     private void Start()
     {
         scoresUI = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    protected override void OnDamageTaken(int damage)
+    public void ShowScores(int scores)
     {
-        scores += damage;
         scoresUI.text = scores.ToString();
-    }
-
-    protected override void OnEnemyKill()
-    {
-        enemyKilled++;
     }
 }
