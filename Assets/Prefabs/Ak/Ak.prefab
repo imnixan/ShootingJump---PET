@@ -127,7 +127,6 @@ GameObject:
   - component: {fileID: 2522968996500077027}
   - component: {fileID: 2079876194183500465}
   - component: {fileID: 7945133045623441149}
-  - component: {fileID: 7017227485762357221}
   m_Layer: 0
   m_Name: Mag
   m_TagString: Untagged
@@ -230,21 +229,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!138 &7017227485762357221
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2522968996498073379}
-  m_ConnectedBody: {fileID: 9128684274046663226}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2522968996498073381
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +459,7 @@ GameObject:
   - component: {fileID: 9128684274046663226}
   - component: {fileID: 9128684274046663227}
   - component: {fileID: 4000769389809088131}
+  - component: {fileID: 459828288112653866}
   m_Layer: 6
   m_Name: Ak
   m_TagString: Gun
@@ -550,7 +535,23 @@ MonoBehaviour:
   slideShootEnd: 0
   triggerShootStart: 0
   triggerShootEnd: 0.04
+  chillin: 0
   fire: 0
+--- !u!138 &459828288112653866
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9128684274046663621}
+  m_ConnectedBody: {fileID: 7945133045623441149}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1001 &1932103967328619633
 PrefabInstance:
   m_ObjectHideFlags: 0

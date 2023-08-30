@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2ac5242df7b50214288cb6b8b0a2a5f4, type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: fdbf78f8f4bc3e74b9bf6a3c8a1333a7, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 18d09d5e9c13d2e4f86157f6773fb4ac, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 1c8c6b99fe7242f4f90c602b0660f76d, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d7721de18f92411419c2651d658059c3, type: 2}

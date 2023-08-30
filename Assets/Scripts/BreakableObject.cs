@@ -164,7 +164,7 @@ public class BreakableObject : MonoBehaviour
         if (destroyPhysicsTime > 0 && destroyColliderWithPhysics)
         {
             Destroy(col, destroyPhysicsTime);
-            Destroy(gameObject, destroyPhysicsTime);
+            Destroy(obj, destroyPhysicsTime);
         }
 
         Rigidbody rigid = obj.AddComponent<Rigidbody>();
@@ -178,7 +178,9 @@ public class BreakableObject : MonoBehaviour
                 )
             );
         if (destroyPhysicsTime > 0)
-            Destroy(rigid, destroyPhysicsTime);
+        {
+            Destroy(obj, destroyPhysicsTime);
+        }
 
         MeshRenderer mr = obj.AddComponent<MeshRenderer>();
         mr.materials = GetComponent<Renderer>().materials;

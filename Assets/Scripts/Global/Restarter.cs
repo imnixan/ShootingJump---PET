@@ -9,6 +9,10 @@ public class Restarter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Menu();
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
             Restart();
         }
     }

@@ -55,4 +55,10 @@ public class ShotGun : Gun
             .Join(trigger.DOLocalMoveZ(triggerShootStart, animStepDuration))
             .AppendCallback(OnRechargeEnd);
     }
+
+    protected override void CreateEndAmmoAnim()
+    {
+        base.CreateEndAmmoAnim();
+        endAmmoAnim.Append(slide.DOLocalMoveZ(slideShootEnd, animStepDuration));
+    }
 }

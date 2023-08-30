@@ -2,7 +2,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class Kriss : AutoFireGun
+public class P90 : AutoFireGun
 {
     protected override void Start()
     {
@@ -12,10 +12,10 @@ public class Kriss : AutoFireGun
 
     protected override void SetupWeapon()
     {
-        bouncePower = 20f;
-        animStepDuration = 0.02f;
-        recoilForce = bouncePower / 4.5f;
-        magazineValue = 50;
+        bouncePower = 15f;
+        animStepDuration = 0.025f;
+        recoilForce = bouncePower / 5f;
+        magazineValue = 80;
     }
 
     protected override void CreateEndAmmoAnim()

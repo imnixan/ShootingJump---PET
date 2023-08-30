@@ -60,12 +60,4 @@ public class GameManager : DamageListeners
     {
         enemiesKilled++;
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            EndGame(false);
-        }
-    }
 }

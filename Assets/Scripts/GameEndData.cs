@@ -99,5 +99,8 @@ public class GameEndData
     {
         this.kills = kills;
         this.totalEnemies = totalEnemies;
+        bestTime = PlayerPrefs.GetFloat("BestTime");
+        balance = PlayerPrefs.GetInt("Balance");
+        CalculateScores();
     }
 }

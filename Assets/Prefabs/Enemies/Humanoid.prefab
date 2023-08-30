@@ -2450,7 +2450,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hp: 100
-  deadMat: {fileID: 2100000, guid: c377c1a0b2db7b94f841005f0d6b9f41, type: 2}
 --- !u!1 &5802545331492879481
 GameObject:
   m_ObjectHideFlags: 0
