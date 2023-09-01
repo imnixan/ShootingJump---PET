@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e73e057de6394d4e9202fea1b88ab59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunName: Benelli m3
+  gunName: Benelli M3
   gunDescription: Strong recoil, very. *BANG!*
   gunPrice: 1500
 --- !u!1 &8239957682884487288

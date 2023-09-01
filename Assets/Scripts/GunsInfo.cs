@@ -8,9 +8,6 @@ public class GunsInfo : MonoBehaviour
     private string gunName;
 
     [SerializeField]
-    private string gunDescription;
-
-    [SerializeField]
     private int gunPrice;
 
     public bool GunOpened
@@ -25,7 +22,7 @@ public class GunsInfo : MonoBehaviour
 
     public string GunDescription
     {
-        get { return gunDescription; }
+        get { return Localization.CurrentLanguage[gunName + "_Description"]; }
     }
 
     public int GunPrice

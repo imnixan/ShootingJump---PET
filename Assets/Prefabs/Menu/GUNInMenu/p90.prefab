@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunName: P90
-  gunDescription: Very hight firerate;
+  gunDescription: "Very hight firerate; \u0442\u0435\u0441\u0442 \u0440\u0443\u0441\u0441\u043A\u043E\u0433\u043E"
   gunPrice: 1500
 --- !u!1 &5754275495914668946
 GameObject:

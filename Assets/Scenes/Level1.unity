@@ -1375,7 +1375,7 @@ GameObject:
   - component: {fileID: 66222136}
   - component: {fileID: 66222135}
   m_Layer: 5
-  m_Name: BalanceText
+  m_Name: BalanceCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7319,13 +7319,20 @@ MonoBehaviour:
   - {fileID: 1430722499}
   - {fileID: 1528754179}
   scoresUI: {fileID: 1875363644}
-  damageText: {fileID: 1384038161}
-  killsText: {fileID: 578899683}
-  timeText: {fileID: 1490396601}
-  bestTimeText: {fileID: 1839332773}
-  timeBonusText: {fileID: 933355065}
-  totalScoresText: {fileID: 1028957771}
-  balanceText: {fileID: 66222135}
+  damageText: {fileID: 847320603}
+  killsText: {fileID: 810549317}
+  timeText: {fileID: 1422442861}
+  bestTimeText: {fileID: 1468834236}
+  timeBonusText: {fileID: 987766509}
+  totalScoresText: {fileID: 204860999}
+  balanceText: {fileID: 489607234}
+  damageCount: {fileID: 1384038161}
+  killsCount: {fileID: 578899683}
+  timeCount: {fileID: 1490396601}
+  bestTimeCount: {fileID: 1839332773}
+  timeBonusCount: {fileID: 933355065}
+  totalScoresCount: {fileID: 1028957771}
+  balanceCount: {fileID: 66222135}
 --- !u!1 &201592565
 GameObject:
   m_ObjectHideFlags: 0
@@ -7378,7 +7385,7 @@ GameObject:
   - component: {fileID: 204861000}
   - component: {fileID: 204860999}
   m_Layer: 5
-  m_Name: TotalScores
+  m_Name: TotalScoresText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7456,7 +7463,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -20976,7 +20983,7 @@ GameObject:
   - component: {fileID: 489607235}
   - component: {fileID: 489607234}
   m_Layer: 5
-  m_Name: Balance
+  m_Name: BalanceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22094,7 +22101,7 @@ GameObject:
   - component: {fileID: 578899684}
   - component: {fileID: 578899683}
   m_Layer: 5
-  m_Name: KillsText
+  m_Name: KillCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30272,7 +30279,7 @@ GameObject:
   - component: {fileID: 810549318}
   - component: {fileID: 810549317}
   m_Layer: 5
-  m_Name: Kills
+  m_Name: KillsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30351,7 +30358,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -30666,7 +30673,7 @@ GameObject:
   - component: {fileID: 847320604}
   - component: {fileID: 847320603}
   m_Layer: 5
-  m_Name: Damage
+  m_Name: DamageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30744,7 +30751,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -31177,7 +31184,7 @@ GameObject:
   - component: {fileID: 933355066}
   - component: {fileID: 933355065}
   m_Layer: 5
-  m_Name: TimeBonusText
+  m_Name: TimeBonusCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31728,7 +31735,7 @@ GameObject:
   - component: {fileID: 987766510}
   - component: {fileID: 987766509}
   m_Layer: 5
-  m_Name: Time bonus
+  m_Name: Time bonus TExt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31806,7 +31813,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -31864,7 +31871,7 @@ GameObject:
   - component: {fileID: 1028957772}
   - component: {fileID: 1028957771}
   m_Layer: 5
-  m_Name: TotalScoresText
+  m_Name: TotalScoresCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45405,7 +45412,7 @@ GameObject:
   - component: {fileID: 1384038162}
   - component: {fileID: 1384038161}
   m_Layer: 5
-  m_Name: DamageText
+  m_Name: DamageCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51648,7 +51655,7 @@ GameObject:
   - component: {fileID: 1422442862}
   - component: {fileID: 1422442861}
   m_Layer: 5
-  m_Name: Time
+  m_Name: TimeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51726,7 +51733,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -57318,7 +57325,7 @@ GameObject:
   - component: {fileID: 1468834237}
   - component: {fileID: 1468834236}
   m_Layer: 5
-  m_Name: Best time
+  m_Name: Best timeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57396,7 +57403,7 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -57584,7 +57591,7 @@ GameObject:
   - component: {fileID: 1490396602}
   - component: {fileID: 1490396601}
   m_Layer: 5
-  m_Name: TimeText
+  m_Name: TimeCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75467,7 +75474,7 @@ GameObject:
   - component: {fileID: 1839332774}
   - component: {fileID: 1839332773}
   m_Layer: 5
-  m_Name: BestTimeText
+  m_Name: BestTimeCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

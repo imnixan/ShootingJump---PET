@@ -18,7 +18,14 @@ public class UIManagerGame : MonoBehaviour
         bestTimeText,
         timeBonusText,
         totalScoresText,
-        balanceText;
+        balanceText,
+        damageCount,
+        killsCount,
+        timeCount,
+        bestTimeCount,
+        timeBonusCount,
+        totalScoresCount,
+        balanceCount;
 
     private Sequence showScoresAnim;
 
@@ -46,7 +53,15 @@ public class UIManagerGame : MonoBehaviour
 
     private void PrepareAnim(GameEndData endData)
     {
-        balanceText.text = endData.Balance;
+        balanceText.text = Localization.CurrentLanguage["BalanceText"];
+        damageText.text = Localization.CurrentLanguage["DamageText"];
+        killsText.text = Localization.CurrentLanguage["KillsText"];
+        timeText.text = Localization.CurrentLanguage["TimeText"];
+        bestTimeText.text = Localization.CurrentLanguage["BestTimeText"];
+        timeBonusText.text = Localization.CurrentLanguage["TimeBonusText"];
+        totalScoresText.text = Localization.CurrentLanguage["TotalScoresText"];
+
+        balanceCount.text = endData.Balance;
         showScoresAnim = DOTween.Sequence();
         showScoresAnim.Append(
             DOTween.To(
@@ -60,11 +75,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            damageText.text = endData.Damage;
+            damageCount.text = endData.Damage;
         });
         showScoresAnim.Append(
-            damageText.transform.parent.DOPunchScale(
-                damageText.transform.parent.localScale * 1.1f,
+            damageCount.transform.parent.DOPunchScale(
+                damageCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -72,11 +87,12 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            killsText.text = endData.Kills;
+
+            killsCount.text = endData.Kills;
         });
         showScoresAnim.Append(
-            killsText.transform.parent.DOPunchScale(
-                killsText.transform.parent.localScale * 1.1f,
+            killsCount.transform.parent.DOPunchScale(
+                killsCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -84,11 +100,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            bestTimeText.text = endData.BestTime;
+            bestTimeCount.text = endData.BestTime;
         });
         showScoresAnim.Append(
-            bestTimeText.transform.parent.DOPunchScale(
-                bestTimeText.transform.parent.localScale * 1.1f,
+            bestTimeCount.transform.parent.DOPunchScale(
+                bestTimeCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -96,11 +112,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            timeText.text = endData.Time;
+            timeCount.text = endData.Time;
         });
         showScoresAnim.Append(
-            timeText.transform.parent.DOPunchScale(
-                timeText.transform.parent.localScale * 1.1f,
+            timeCount.transform.parent.DOPunchScale(
+                timeCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -108,11 +124,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            timeBonusText.text = endData.TimeBonus;
+            timeBonusCount.text = endData.TimeBonus;
         });
         showScoresAnim.Append(
-            timeBonusText.transform.parent.DOPunchScale(
-                timeBonusText.transform.parent.localScale * 1.1f,
+            timeBonusCount.transform.parent.DOPunchScale(
+                timeBonusCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -120,11 +136,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            totalScoresText.text = endData.TotalScores;
+            totalScoresCount.text = endData.TotalScores;
         });
         showScoresAnim.Append(
-            totalScoresText.transform.parent.DOPunchScale(
-                totalScoresText.transform.parent.localScale * 1.1f,
+            totalScoresCount.transform.parent.DOPunchScale(
+                totalScoresCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );
@@ -132,11 +148,11 @@ public class UIManagerGame : MonoBehaviour
         showScoresAnim.AppendCallback(() =>
         {
             AudioManager.PlayShootSound();
-            balanceText.text = endData.NewBalance;
+            balanceCount.text = endData.NewBalance;
         });
         showScoresAnim.Append(
-            balanceText.transform.parent.DOPunchScale(
-                balanceText.transform.parent.localScale * 1.1f,
+            balanceCount.transform.parent.DOPunchScale(
+                balanceCount.transform.parent.localScale * 1.1f,
                 0.1f
             )
         );

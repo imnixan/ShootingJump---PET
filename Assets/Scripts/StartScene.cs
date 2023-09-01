@@ -23,7 +23,11 @@ public class StartScene : MonoBehaviour
         gunWindow;
 
     [SerializeField]
-    private GameObject lockIcon;
+    private Image lockIcon;
+
+    [SerializeField]
+    private Sprite buy,
+        locked;
 
     [SerializeField]
     private TextMeshProUGUI buyText,
@@ -188,7 +192,7 @@ public class StartScene : MonoBehaviour
         header.text = currentGunInfo.GunName;
         if (currentGunInfo.GunOpened)
         {
-            lockIcon.SetActive(false);
+            lockIcon.enabled = false;
 
             if (pressToBuy.localScale.x > 0)
             {
@@ -197,8 +201,23 @@ public class StartScene : MonoBehaviour
         }
         else
         {
-            lockIcon.SetActive(true);
-            buyText.text = $"Press to buy\n({currentGunInfo.GunPrice})";
+            lockIcon.enabled = true;
+
+            if (playerBalance >= currentGunInfo.GunPrice)
+            {
+                buyText.text =
+                    $"{Localization.CurrentLanguage["Buy_text"]}\n({currentGunInfo.GunPrice})";
+                lockIcon.sprite = buy;
+            }
+            else
+            {
+                buyText.text =
+                    $"{Localization.CurrentLanguage["No_honey_text"]}\n({currentGunInfo.GunPrice})";
+                lockIcon.sprite = locked;
+            }
+
+            lockIcon.SetNativeSize();
+
             if (pressToBuy.localScale.x == 0)
             {
                 hintAnimShow.Restart();
