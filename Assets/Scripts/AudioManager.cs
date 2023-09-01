@@ -64,7 +64,7 @@ public class AudioManager : MonoBehaviour
 
     public static void Vibrate()
     {
-#if !PLATFORM_STANDALONE_WIN
+#if !PLATFORM_STANDALONE_WIN && !PLATFORM_WEBGL
         Handheld.Vibrate();
 #endif
     }
