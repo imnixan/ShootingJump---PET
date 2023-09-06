@@ -21,4 +21,12 @@ public class RagdollSystem : MonoBehaviour
             bodyPart.Init(enemy);
         }
     }
+
+    public void TurnOffKinematic()
+    {
+        foreach (var bodyPart in bodyParts)
+        {
+            bodyPart.TurnOffKinematic();
+        }
+    }
 }

@@ -24,6 +24,11 @@ public class BodyPart : MonoBehaviour
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.tag = "Enemy";
+        if (bodyPartType == Enemy.BodyPartType.Body)
+        {
+            rb.constraints = RigidbodyConstraints.FreezePositionZ;
+        }
+        rb.isKinematic = true;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -42,6 +47,7 @@ public class BodyPart : MonoBehaviour
                 {
                     Instantiate(explode, collision.GetContact(0).point, new Quaternion());
                     breakable.BreakObject(collision.GetContact(0).point);
+                    rb.AddForceAtPosition(collision.impulse, collision.GetContact(0).point);
                     if (bodyPartType != Enemy.BodyPartType.Body)
                     {
                         transform.localScale = Vector3.zero;
@@ -54,5 +60,10 @@ public class BodyPart : MonoBehaviour
     public int GetEnemyHp()
     {
         return enemy.HP;
+    }
+
+    public void TurnOffKinematic()
+    {
+        rb.isKinematic = false;
     }
 }

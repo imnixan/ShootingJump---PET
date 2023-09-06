@@ -70,6 +70,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(BodyPartType bodyPart)
     {
         Destroy(animator);
+        ragdollSystem.TurnOffKinematic();
         HP -= DamageDic[bodyPart];
         InvokeDamageTaken(DamageDic[bodyPart]);
     }
