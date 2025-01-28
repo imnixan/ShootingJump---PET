@@ -14,7 +14,7 @@ public class Bullet : Ammo
     {
         base.Init(startPos, direction);
         transform.up = direction;
-        rb.velocity = transform.up * ammoSpeed;
+        rb.linearVelocity = transform.up * ammoSpeed;
         collider.enabled = true;
         rb.interpolation = RigidbodyInterpolation.Extrapolate;
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;

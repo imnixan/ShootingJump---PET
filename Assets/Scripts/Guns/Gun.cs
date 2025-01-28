@@ -133,7 +133,7 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void Recoil()
     {
-        rb.velocity = transform.right * -bouncePower;
+        rb.linearVelocity = transform.right * -bouncePower;
 
         rb.angularVelocity = new Vector3(0, 0, recoilForce);
     }
