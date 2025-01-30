@@ -28,6 +28,9 @@ public abstract class Gun : MonoBehaviour
     [SerializeField]
     protected bool chillin;
 
+    [SerializeField] protected float flashLightIntencity = 100;
+    protected Light flashLight;
+    
     protected GameManager gameManager;
     protected bool _falling;
     protected AmmoPoolManager ammoPool;
@@ -79,6 +82,8 @@ public abstract class Gun : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
         flash = GetComponentInChildren<ParticleSystem>();
+        flashLight = GetComponentInChildren<Light>();
+        flashLight.intensity = 0;
     }
 
     protected virtual void Update()
@@ -197,7 +202,8 @@ public abstract class Gun : MonoBehaviour
     protected virtual void Shoot()
     {
         fireAnim.Restart();
-        flash.Play();
+        PlayFlash();
+        
         AudioManager.PlayShootSound();
         CreateBullet();
         if (!CheckTarget())
@@ -206,6 +212,14 @@ public abstract class Gun : MonoBehaviour
             UpdateAmmo();
         }
         Recoil();
+    }
+
+    protected void PlayFlash()
+    {
+        flash.Play();
+        Sequence flashAnim = DOTween.Sequence();
+        flashAnim.Append(flashLight.DOIntensity(flashLightIntencity, 0.15f))
+            .Append(flashLight.DOIntensity(0, 0.1f)).Restart();
     }
 
     protected virtual void CreateBullet()

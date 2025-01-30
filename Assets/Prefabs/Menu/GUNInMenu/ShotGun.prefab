@@ -1568,7 +1568,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunName: Benelli M3
-  gunDescription: Strong recoil, very. *BANG!*
   gunPrice: 1500
 --- !u!1 &8239957682884487288
 GameObject:

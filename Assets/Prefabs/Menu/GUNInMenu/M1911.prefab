@@ -825,5 +825,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunName: M1911
-  gunDescription: Simple pistol. Pew, pew.
   gunPrice: 0

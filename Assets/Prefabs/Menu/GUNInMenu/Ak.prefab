@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunName: Ak-74
-  gunDescription: High firerate, strong recoil.
   gunPrice: 1500
 --- !u!1 &4111304143630197924
 GameObject:

@@ -15,12 +15,11 @@ public class GameSpeedChanger : MonoBehaviour
 
     public float _currentGameSpeed;
 
-    [SerializeField]
-    private Light bgLight;
-
+  
     private const float MaxGameSpeed = 1;
     private Sequence gameSpeedRestore;
-    private const float SlowMoSpeed = 0.05f;
+    // private const float SlowMoSpeed = 0.05f;
+    private const float SlowMoSpeed = 1f;
     private float CurrentGameSpeed
     {
         get { return _currentGameSpeed; }
@@ -33,7 +32,7 @@ public class GameSpeedChanger : MonoBehaviour
             }
             Time.timeScale = _currentGameSpeed;
             AudioManager.Pitch = _currentGameSpeed;
-            bgLight.intensity = _currentGameSpeed;
+   
         }
     }
 

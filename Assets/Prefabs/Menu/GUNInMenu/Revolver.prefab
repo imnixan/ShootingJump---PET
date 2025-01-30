@@ -39456,7 +39456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunName: Python
-  gunDescription: Strong recoil. Fast as your hand, cowboy.
   gunPrice: 1500
 --- !u!1 &4778192239258002496
 GameObject:
