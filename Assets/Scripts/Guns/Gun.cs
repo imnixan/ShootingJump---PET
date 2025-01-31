@@ -129,7 +129,7 @@ public abstract class Gun : MonoBehaviour
                 && raycastHit.collider.GetComponent<BodyPart>().GetEnemyHp() > 0
             )
             {
-                gameSpeedChanger.SlowTime();
+                // gameSpeedChanger.StartSlowTime();
                 return true;
             }
         }

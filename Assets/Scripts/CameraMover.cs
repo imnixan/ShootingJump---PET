@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 public class CameraMover : MonoBehaviour
 {
     [SerializeField]
-    private  float NormalFov = 75;
+    private float NormalFov = 75;
     [SerializeField]
-    private  float SlowMoFov = 110;
+    private float SlowMoFov = 110;
     [SerializeField]
     private float MinY = 0;
     [SerializeField]
@@ -15,15 +16,21 @@ public class CameraMover : MonoBehaviour
     [SerializeField]
     private Vector3 _cameraFinalPos;
     [SerializeField]
-    private  float MaxVerticalAngle = 45f;
+    private float MaxVerticalAngle = 5f;
     [SerializeField]
-    private  float VerticalAngleSpeed = 5f;
-    
+    private float VerticalAngleSpeed = 100f;
+    [SerializeField]
+    private float FovChangeSpeedIn = 2f; // Скорость изменения FOV при входе в слоу-мо
+    [SerializeField]
+    private float FovChangeSpeedOut = 10f; // Скорость изменения FOV при выходе из слоу-мо
+    [SerializeField]
+    private float _currentFov;
+
     private Transform playerTransform;
     private Transform cameraTransform;
     private Camera camera;
     private float zPos;
-    private float _currentFov;
+
     private float CurrentFov
     {
         get { return _currentFov; }
@@ -40,6 +47,7 @@ public class CameraMover : MonoBehaviour
             }
         }
     }
+
     private Vector3 CameraFinalPos
     {
         get { return _cameraFinalPos; }
@@ -76,29 +84,32 @@ public class CameraMover : MonoBehaviour
         float verticalOffset = playerTransform.position.y - cameraTransform.position.y;
         float targetAngle = Mathf.Clamp(-verticalOffset * 1f, -MaxVerticalAngle, MaxVerticalAngle);
         float currentAngle = cameraTransform.eulerAngles.x > 180 ? cameraTransform.eulerAngles.x - 360 : cameraTransform.eulerAngles.x;
-
         float newAngle = Mathf.MoveTowards(currentAngle, targetAngle, VerticalAngleSpeed * Time.deltaTime);
         cameraTransform.rotation = Quaternion.Euler(newAngle, 0, 0);
+
+        float fovChangeSpeed = CurrentFov > camera.fieldOfView ? FovChangeSpeedIn : FovChangeSpeedOut;
+        camera.fieldOfView = Mathf.MoveTowards(camera.fieldOfView, CurrentFov, fovChangeSpeed * Time.deltaTime);
     }
 
-    private void FixedUpdate()
-    {
-        CurrentFov = Mathf.MoveTowards(CurrentFov, NormalFov, 0.25f);
-        camera.fieldOfView = Mathf.MoveTowards(camera.fieldOfView, CurrentFov, 0.25f);
-    }
-
-    private void OnSlowMo()
+    private void OnSlowMoStart()
     {
         CurrentFov = SlowMoFov;
     }
 
+    private void OnSlowMoEnd()
+    {
+        CurrentFov = NormalFov;
+    }
+
     private void OnEnable()
     {
-        GameSpeedChanger.SlowMotion += OnSlowMo;
+        GameSpeedChanger.SlowMotionStart += OnSlowMoStart;
+        GameSpeedChanger.SlowMotionEnd += OnSlowMoEnd;
     }
 
     private void OnDisable()
     {
-        GameSpeedChanger.SlowMotion -= OnSlowMo;
+        GameSpeedChanger.SlowMotionStart -= OnSlowMoStart;
+        GameSpeedChanger.SlowMotionEnd -= OnSlowMoEnd;
     }
 }

@@ -9,6 +9,7 @@ public class BreakableProps : Enemy
     [SerializeField]
     private ParticleSystem explode;
 
+    [SerializeField] private bool destroy = true;
     private void OnCollisionEnter(Collision collision)
     {
         if (
@@ -18,8 +19,16 @@ public class BreakableProps : Enemy
         {
             InvokeDamageTaken(scores);
             Instantiate(explode, collision.GetContact(0).point, new Quaternion());
-            GetComponent<BreakableObject>().BreakObject(collision.GetContact(0).point);
-            Destroy(gameObject);
+            var breakableObject = collision.gameObject.GetComponent<BreakableObject>();
+            if (breakableObject)
+            {
+                breakableObject.BreakObject(collision.GetContact(0).point);   
+            }
+            if (destroy)
+            {
+                Destroy(gameObject);
+                
+            }
         }
     }
 }
