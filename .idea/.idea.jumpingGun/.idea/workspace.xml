@@ -4,8 +4,185 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="fov lil fix">
+    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="flickering lights">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/Cap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/Cap.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtract.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtract.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtractBottle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtractBottle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtractLabel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Materials/VanillaExtractLabel.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Almonds.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Almonds.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Banana.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Banana.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BeerBottle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BeerBottle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BlueBerries.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BlueBerries.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Bowl.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Bowl.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Butter.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Butter.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/ButterPlate.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/ButterPlate.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Capsicums.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Capsicums.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Carrots.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Carrots.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/CerealBox.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/CerealBox.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Cheese.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Cheese.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Cherries.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Cherries.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Chips.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Chips.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Coffee Beans.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Coffee Beans.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/EnergyDrink.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/EnergyDrink.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Flour.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Flour.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/GarlicCloves.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/GarlicCloves.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/JuicePack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/JuicePack.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Lemons.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Lemons.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Meat.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Meat.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Milk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Milk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/MincedBeef.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/MincedBeef.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Mushrooms.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Mushrooms.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/OliveOil.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/OliveOil.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Onion.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Onion.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Peanuts.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Peanuts.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Potato.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Potato.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Puree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Puree.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Skinned_Chicken.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Skinned_Chicken.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/SodaCan.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/SodaCan.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Tomato.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/Tomato.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/TomatoSoup.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/TomatoSoup.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/egg.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/egg.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/garlic.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/garlic.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/plate.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/plate.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/PostEffects Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/PostEffects Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/FlickeringLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/FlickeringLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +211,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/DownloadedAssets/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WORK/pets/jumpingGun/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/FanPhysics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/FlickeringLight.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -114,7 +293,7 @@
       <workItem from="1738190263671" duration="1474000" />
       <workItem from="1738192810635" duration="2985000" />
       <workItem from="1738253205010" duration="1805000" />
-      <workItem from="1738280714044" duration="3242000" />
+      <workItem from="1738280714044" duration="8692000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <option name="closed" value="true" />
@@ -172,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738284373771</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="flickering lights">
+      <option name="closed" value="true" />
+      <created>1738284850950</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738284850950</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +392,7 @@
     <MESSAGE value="floor" />
     <MESSAGE value="first mobile test" />
     <MESSAGE value="fov lil fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fov lil fix" />
+    <MESSAGE value="flickering lights" />
+    <option name="LAST_COMMIT_MESSAGE" value="flickering lights" />
   </component>
 </project>

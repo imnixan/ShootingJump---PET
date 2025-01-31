@@ -4,19 +4,26 @@ using DG.Tweening;
 
 public class CameraMover : MonoBehaviour
 {
+    [SerializeField]
+    private  float NormalFov = 75;
+    [SerializeField]
+    private  float SlowMoFov = 110;
+    [SerializeField]
+    private float MinY = 0;
+    [SerializeField]
+    private float Speed = 1;
+    [SerializeField]
+    private Vector3 _cameraFinalPos;
+    [SerializeField]
+    private  float MaxVerticalAngle = 45f;
+    [SerializeField]
+    private  float VerticalAngleSpeed = 5f;
+    
     private Transform playerTransform;
-    private const float NormalFov = 75;
-    private const float SlowMoFov = 110;
     private Transform cameraTransform;
     private Camera camera;
-
-    private const float MinY = 0;
-    private const float Speed = 1;
     private float zPos;
-    private Vector3 _cameraFinalPos;
-
-    public float _currentFov;
-
+    private float _currentFov;
     private float CurrentFov
     {
         get { return _currentFov; }
@@ -33,7 +40,6 @@ public class CameraMover : MonoBehaviour
             }
         }
     }
-
     private Vector3 CameraFinalPos
     {
         get { return _cameraFinalPos; }
@@ -60,13 +66,19 @@ public class CameraMover : MonoBehaviour
 
     private void LateUpdate()
     {
-        CameraFinalPos = playerTransform.position;
-
+        Vector3 targetPosition = new Vector3(playerTransform.position.x, cameraTransform.position.y, zPos);
         cameraTransform.position = Vector3.MoveTowards(
             cameraTransform.position,
-            CameraFinalPos,
-            Speed
+            targetPosition,
+            Speed * Time.deltaTime
         );
+
+        float verticalOffset = playerTransform.position.y - cameraTransform.position.y;
+        float targetAngle = Mathf.Clamp(-verticalOffset * 1f, -MaxVerticalAngle, MaxVerticalAngle);
+        float currentAngle = cameraTransform.eulerAngles.x > 180 ? cameraTransform.eulerAngles.x - 360 : cameraTransform.eulerAngles.x;
+
+        float newAngle = Mathf.MoveTowards(currentAngle, targetAngle, VerticalAngleSpeed * Time.deltaTime);
+        cameraTransform.rotation = Quaternion.Euler(newAngle, 0, 0);
     }
 
     private void FixedUpdate()
