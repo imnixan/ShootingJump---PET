@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="first mobile test" />
+    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="fov lil fix">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -38,6 +34,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/DownloadedAssets/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/FlickeringLight.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -117,7 +114,7 @@
       <workItem from="1738190263671" duration="1474000" />
       <workItem from="1738192810635" duration="2985000" />
       <workItem from="1738253205010" duration="1805000" />
-      <workItem from="1738280714044" duration="2483000" />
+      <workItem from="1738280714044" duration="3242000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <option name="closed" value="true" />
@@ -167,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738283771885</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fov lil fix">
+      <option name="closed" value="true" />
+      <created>1738284373771</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738284373771</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +204,7 @@
     <MESSAGE value="qs" />
     <MESSAGE value="floor" />
     <MESSAGE value="first mobile test" />
-    <option name="LAST_COMMIT_MESSAGE" value="first mobile test" />
+    <MESSAGE value="fov lil fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fov lil fix" />
   </component>
 </project>
