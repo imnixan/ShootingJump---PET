@@ -5,165 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="papers heap + volume">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/ENV.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/nappin/House Props Softpack/Materials/(Mat)EmissiveWarm 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Box Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Box Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-1.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-1.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-2.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-2.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/OcclusionCullingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/OcclusionCullingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/PostEffects Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/PostEffects Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/New LightmapParameters.giparams" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/New LightmapParameters.giparams.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PaperDrop.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PaperDrop.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/papersHeap.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/papersHeap.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/CeilingFan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnvoirementScripts/CeilingFan.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/UnityTechnologies/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/UnityTechnologies/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BreakableProps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BreakableProps.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Global/GameSpeedChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Global/GameSpeedChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/Gun.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +33,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/PostBuildStep.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/DownloadedAssets/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/Scripts/BreakableProps.cs" root0="SKIP_HIGHLIGHTING" />
@@ -278,7 +121,7 @@
       <workItem from="1738190263671" duration="1474000" />
       <workItem from="1738192810635" duration="2985000" />
       <workItem from="1738253205010" duration="1805000" />
-      <workItem from="1738280714044" duration="13265000" />
+      <workItem from="1738280714044" duration="17345000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <option name="closed" value="true" />
@@ -352,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738293421523</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="papers heap + volume">
+      <option name="closed" value="true" />
+      <created>1738298995360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738298995360</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
