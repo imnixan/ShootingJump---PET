@@ -5,7 +5,7 @@ using DG.Tweening;
 public class CameraMover : MonoBehaviour
 {
     private Transform playerTransform;
-    private const float NormalFov = 60;
+    private const float NormalFov = 75;
     private const float SlowMoFov = 110;
     private Transform cameraTransform;
     private Camera camera;
