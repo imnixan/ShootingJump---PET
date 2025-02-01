@@ -14,7 +14,7 @@ public class Pistol : Gun
         bouncePower = 15f;
         animStepDuration = 0.07f;
         recoilForce = bouncePower / 4;
-        magazineValue = 15;
+        magazineValue = 1500;
     }
 
     protected override void CreateEndAmmoAnim()
