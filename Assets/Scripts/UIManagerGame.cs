@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System.Diagnostics.SymbolStore;
+using System.Collections;
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
@@ -53,6 +54,7 @@ public class UIManagerGame : MonoBehaviour
 
     private void PrepareAnim(GameEndData endData)
     {
+        Localization.SetLanguage(Localization.Language.Russian);
         balanceText.text = Localization.CurrentLanguage["BalanceText"];
         damageText.text = Localization.CurrentLanguage["DamageText"];
         killsText.text = Localization.CurrentLanguage["KillsText"];

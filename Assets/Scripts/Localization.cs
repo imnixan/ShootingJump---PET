@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine; 
 
 public static class Localization
 {
-    public static Dictionary<string, string> CurrentLanguage;
+    public static Dictionary<string, string> CurrentLanguage = EnglishLanguage;
 
     private static Dictionary<string, string> EnglishLanguage = new Dictionary<string, string>()
     {
