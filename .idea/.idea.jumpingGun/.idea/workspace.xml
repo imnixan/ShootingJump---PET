@@ -4,317 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="bathroom work">
+    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="add bath">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpingGun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/DetectiveOffice/Office_Sh.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/DetectiveOffice/Office_Sh.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BeerBottle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DownloadedAssets/Food Pack Mixed/Meshes/BeerBottle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/All models.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/All models.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/All modelsSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/All modelsSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3Seat3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3seat4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/3seat4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/BigCloset.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/BigCloset.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Closet3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Closet3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Couch.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Couch.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/DoubleSeat.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/DoubleSeat.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/DoubleSeat2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/DoubleSeat2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/Fotel4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MetalTable.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MetalTable.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MirrorComode.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MirrorComode.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MirrorComode2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/MirrorComode2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/RoundTable.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/RoundTable.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/SmallCloset.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/SmallCloset.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/chair.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/chair.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/closet2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Prefabs/closet2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/2SeatD_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/2SeatD_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/2Seat_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/2Seat_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat2D_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat2D_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat2_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat2_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3SeatDirt_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3SeatDirt_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/3Seat_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/Kom_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/Kom_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/MetalTable_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/MetalTable_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/RoundTable_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/RoundTable_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/chair_chair_Albedo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/chair_chair_Albedo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet2_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet2_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet3_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet3_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/closet_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/couch_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/couch_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/fotel2D_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/fotel2D_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/fotel2_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/fotel2_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/komm2_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Materials/komm2_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/3Seat4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/BigCloset.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/BigCloset.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Closet3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Closet3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Couch.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Couch.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/DoubleSeat.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/DoubleSeat.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/DoubleSeat2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/DoubleSeat2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/Fotel4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MetalTable.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MetalTable.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MirrorComode.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MirrorComode.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MirrorComode2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/MirrorComode2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/RoundTable.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/RoundTable.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/SmallCloset.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/SmallCloset.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/chair.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/chair.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/closet2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Mesh/closet2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2SeatD_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/2Seat_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2D_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat2_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3SeatDirt_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/3Seat_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/Kom_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/MetalTable_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/RoundTable_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Albedo.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Albedo.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Metallic.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Metallic.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/chair_chair_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet2_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet3_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/closet_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/couch_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2D_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/fotel2_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_BaseColor.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_BaseColor.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_mask.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DownloadedAssets/Furniture/Source/Textures/komm2_mask.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-17_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-18_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-19_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-20_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-21_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-22_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-23_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-24_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-25_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-26_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-27_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-28_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-29_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-30_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-31_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-31_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-31_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-31_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-32_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-32_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-32_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-32_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-33_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-33_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-33_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-33_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-34_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-34_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-34_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-34_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-35_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-35_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-35_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-35_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-36_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-36_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-36_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-36_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameLevelsContent/1 - Noir/Level1/Level1/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/SimpleShotGuns/Pistol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/SimpleShotGuns/Pistol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,6 +34,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/PostBuildStep.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WORK/pets/jumpingGun/Assets/DownloadedAssets/Kabungus/HouseholdItems/Models/AmmoCase.fbx.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/DownloadedAssets/Lana Studio/Hyper Casual FX/Demo/Scenes/LanaDemo02.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WORK/pets/jumpingGun/Assets/Scripts/BreakableProps.cs" root0="SKIP_HIGHLIGHTING" />
@@ -430,7 +122,7 @@
       <workItem from="1738190263671" duration="1474000" />
       <workItem from="1738192810635" duration="2985000" />
       <workItem from="1738253205010" duration="1805000" />
-      <workItem from="1738280714044" duration="20895000" />
+      <workItem from="1738280714044" duration="22911000" />
     </task>
     <task id="LOCAL-00001" summary="22">
       <option name="closed" value="true" />
@@ -544,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738348273116</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="bathroom work">
+      <option name="closed" value="true" />
+      <created>1738370541860</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738370541861</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add bath">
+      <option name="closed" value="true" />
+      <created>1738371760367</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738371760367</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +293,8 @@
     <MESSAGE value="start second room" />
     <MESSAGE value="qs uf" />
     <MESSAGE value="bathroom work" />
-    <option name="LAST_COMMIT_MESSAGE" value="bathroom work" />
+    <MESSAGE value="add bath" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bath" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
