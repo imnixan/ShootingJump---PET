@@ -11,7 +11,7 @@ public class Pistol : Gun
 
     protected override void SetupWeapon()
     {
-        bouncePower = 10f;
+        bouncePower = 15f;
         animStepDuration = 0.07f;
         recoilForce = bouncePower / 4;
         magazineValue = 1500;
