@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="qqs">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/SimpleShotGuns/Pistol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/SimpleShotGuns/Pistol.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a379cdd9-f96f-4e44-8705-546894421f1c" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738409393247</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1">
+      <option name="closed" value="true" />
+      <created>1738409796279</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738409796279</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +307,8 @@
     <MESSAGE value="bathroom work" />
     <MESSAGE value="add bath" />
     <MESSAGE value="qqs" />
-    <option name="LAST_COMMIT_MESSAGE" value="qqs" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
