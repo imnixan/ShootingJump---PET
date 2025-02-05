@@ -16,6 +16,7 @@ TagManager:
   - Ammo
   - EndLevel
   - pushZone
+  - LoseArea
   layers:
   - Default
   - TransparentFX

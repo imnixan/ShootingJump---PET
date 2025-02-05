@@ -240,6 +240,11 @@ public abstract class Gun : MonoBehaviour
             canShoot = false;
             gameManager.EndGame(true);
         }
+        if (other.CompareTag("LoseArea"))
+        {
+            canShoot = false;
+            gameManager.EndGame(false);
+        }
     }
 
     protected void OnTriggerStay(Collider other)
